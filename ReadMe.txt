@@ -11,7 +11,7 @@ This variant of the Boeing 737-300 has been in development by chtadmin since 201
 
 
 <b>Currently Maintained By :</b>
-- e-pilot       <chtadmin@charterva.com>
+- chtadmin       <chtadmin@charterva.com>
 
 
 <b>Original Authors :</b>
