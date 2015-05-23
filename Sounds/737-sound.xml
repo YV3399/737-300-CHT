@@ -6,7 +6,7 @@
 
     <leftstartup>
       <name>leftenginestart</name>
-      <path>/Aircraft/737-300/Sounds/engine-start.wav</path>
+      <path>/Aircraft/737-300-CHT/Sounds/engine-start.wav</path>
       <mode>once</mode>
       <condition>
         <property>/controls/engines/engine[0]/starter</property>
@@ -18,7 +18,7 @@
 
     <rightstartup>
       <name>rightenginestart</name>
-      <path>/Aircraft/737-300/Sounds/engine-start.wav</path>
+      <path>/Aircraft/737-300-CHT/Sounds/engine-start.wav</path>
       <mode>once</mode>
       <condition>
         <property>/controls/engines/engine[1]/starter</property>
@@ -60,7 +60,7 @@
 
     <engine>
       <name>leftengine</name>
-      <path>/Aircraft/737-300/Sounds/thrust.wav</path>
+      <path>/Aircraft/737-300-CHT/Sounds/thrust.wav</path>
       <mode>looped</mode>
       <condition>
         <property>/engines/engine[0]/running</property>
@@ -118,7 +118,7 @@
 
     <engine>
       <name>rightengine</name>
-      <path>/Aircraft/737-300/Sounds/thrust.wav</path>
+      <path>/Aircraft/737-300-CHT/Sounds/thrust.wav</path>
       <mode>looped</mode>
       <condition>
         <property>/engines/engine[1]/running</property>
@@ -219,7 +219,7 @@
     <rumble>
       <name>rumble</name>
       <mode>looped</mode>
-      <path>Aircraft/737-300/Sounds/roll.wav</path>
+      <path>Aircraft/737-300-CHT/Sounds/roll.wav</path>
       <condition>
         <and>
           <greater-than>
@@ -265,7 +265,7 @@
 
     <leftgear>
       <name>Left Main</name>
-      <path>Aircraft/737-300/Sounds/tires.wav</path>
+      <path>Aircraft/737-300-CHT/Sounds/tires.wav</path>
       <mode>once</mode>
       <condition>
         <and>
@@ -290,7 +290,7 @@
     </leftgear>
     <rightgear>
       <name>Right Main</name>
-      <path>Aircraft/737-300/Sounds/tires.wav</path>
+      <path>Aircraft/737-300-CHT/Sounds/tires.wav</path>
       <mode>once</mode>
       <condition>
         <and>
@@ -315,7 +315,7 @@
     </rightgear>
     <nosegear>
       <name>Nose Main</name>
-      <path>Aircraft/737-300/Sounds/tires.wav</path>
+      <path>Aircraft/737-300-CHT/Sounds/tires.wav</path>
       <mode>once</mode>
       <condition>
         <and>
@@ -373,7 +373,7 @@
     <stall>
       <name>stall</name>
       <mode>looped</mode>
-      <path>Aircraft/737-300/Sounds/stall.wav</path>
+      <path>Aircraft/737-300-CHT/Sounds/stall.wav</path>
       <condition>
         <and>
           <greater-than>
@@ -394,7 +394,7 @@
     <overspeed>
       <name>overspeed</name>
       <mode>looped</mode>
-      <path>Aircraft/737-300/Sounds/overspeed.wav</path>
+      <path>Aircraft/737-300-CHT/Sounds/overspeed.wav</path>
       <condition>
         <or>
           <greater-than>
@@ -415,7 +415,7 @@
     <overalt>
       <name>overalt</name>
       <mode>looped</mode>
-      <path>Aircraft/737-300/Sounds/overspeed.wav</path>
+      <path>Aircraft/737-300-CHT/Sounds/overspeed.wav</path>
       <condition>
         <greater-than>
           <property>/instrumentation/altimeter/indicated-altitude-ft</property>
@@ -431,7 +431,7 @@
     <seatbelt-on>
       <name>seatbelt-sign-on</name>
       <mode>once</mode>
-      <path>Aircraft/737-300/Sounds/seatbelt.wav</path>
+      <path>Aircraft/737-300-CHT/Sounds/seatbelt.wav</path>
       <condition>
         <and>
           <property>systems/electrical/on</property>
@@ -446,7 +446,7 @@
 <!--    <seatbelt-off>
       <name>seatbelt-sign-off</name>
       <mode>once</mode>
-      <path>Aircraft/737-300/Sounds/seatbelt.wav</path>
+      <path>Aircraft/737-300-CHT/Sounds/seatbelt.wav</path>
       <condition>
   <and>
     <or>
@@ -469,7 +469,7 @@
     <nosmoke-on>
       <name>nosmoking-sign-on</name>
       <mode>once</mode>
-      <path>Aircraft/737-300/Sounds/seatbelt.wav</path>
+      <path>Aircraft/737-300-CHT/Sounds/seatbelt.wav</path>
       <condition>
         <and>
           <property>systems/electrical/on</property>
@@ -484,7 +484,7 @@
 <!--    <nosmoke-off>
       <name>nosmoking-sign-off</name>
       <mode>once</mode>
-      <path>Aircraft/737-300/Sounds/seatbelt.wav</path>
+      <path>Aircraft/737-300-CHT/Sounds/seatbelt.wav</path>
       <condition>
   <and>
     <or>
@@ -507,7 +507,7 @@
     <ap-off>
       <name>Auto Pilot Disengage</name>
       <mode>once</mode>
-      <path>Aircraft/737-300/Sounds/apdis.wav</path>
+      <path>Aircraft/737-300-CHT/Sounds/apdis.wav</path>
       <condition>
         <property>/autopilot/internal/apdis-warn</property>
       </condition>
@@ -519,7 +519,7 @@
     <fire-bell>
       <name>Fire Warning Bell</name>
       <mode>looped</mode>
-      <path>Aircraft/737-300/Sounds/fire-warn.wav</path>
+      <path>Aircraft/737-300-CHT/Sounds/fire-warn.wav</path>
       <condition>
         <property>/instrumentation/indicators/firewarn</property>
       </condition>

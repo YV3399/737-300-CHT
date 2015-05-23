@@ -6,7 +6,7 @@
 
   <nasal>
     <load>
-      var livery_update = aircraft.livery_update.new("Aircraft/737-300/Models/737-300/Liveries", 10);
+      var livery_update = aircraft.livery_update.new("Aircraft/737-300-CHT/Models/737-300-CHT/Liveries", 10);
     </load>
     <unload>
       livery_update.stop();
@@ -17,7 +17,7 @@
 
   <model>
     <name>flightdeck</name>
-    <path>Aircraft/737-300/Models/Flightdeck/flightdeck.xml</path>
+    <path>Aircraft/737-300-CHT/Models/Flightdeck/flightdeck.xml</path>
     <offsets>
       <x-m>0.3</x-m>
       <z-m>1.957</z-m>
@@ -33,7 +33,7 @@
 
   <model>
     <name>Secondary flightdeck model</name>
-    <path>Aircraft/737-300/Models/Flightdeck/secondary/sec-flightdeck.xml</path>
+    <path>Aircraft/737-300-CHT/Models/Flightdeck/secondary/sec-flightdeck.xml</path>
     <offsets>
       <x-m>0.01</x-m>
       <y-m>0</y-m>
@@ -43,17 +43,17 @@
 
   <model>
     <name>Passenger Seating</name>
-    <path>Aircraft/737-300/Models/Seating/passenger-seating.xml</path>
+    <path>Aircraft/737-300-CHT/Models/Seating/passenger-seating.xml</path>
   </model>	
 
   <model>
     <name>Cockpit Bulkhead</name>
-    <path>Aircraft/737-300/Models/CockpitBulkhead/cockpit-bulkhead.xml</path>
+    <path>Aircraft/737-300-CHT/Models/CockpitBulkhead/cockpit-bulkhead.xml</path>
   </model>	
 
   <model>
     <name>Overhead Bins</name>
-    <path>Aircraft/737-300/Models/Overhead/overhead.xml</path>
+    <path>Aircraft/737-300-CHT/Models/Overhead/overhead.xml</path>
   </model>	
 
   <model>
@@ -69,7 +69,7 @@
   <!-- Shadow, adapted by BR-NVS -->
   <model>
     <name>shadowOSG</name>
-    <path>Aircraft/737-300/Models/Shadow/shadow.xml</path>
+    <path>Aircraft/737-300-CHT/Models/Shadow/shadow.xml</path>
     <offsets>
       <x-m>0.0</x-m>
       <y-m>0.0</y-m>
@@ -81,7 +81,7 @@
   <!-- Services by PR-GEO -->
 
   <model>
-    <path>Aircraft/737-300/Models/Services/Services.xml</path>
+    <path>Aircraft/737-300-CHT/Models/Services/Services.xml</path>
     <offsets>
       <x-m>0</x-m>
       <y-m>0</y-m>
@@ -1787,7 +1787,7 @@
   <animation>
     <type>shader</type>
     <shader>chrome</shader>
-    <texture>Aircraft/737-300/Models/737-300/glass_shader.png</texture>
+    <texture>Aircraft/737-300-CHT/Models/737-300-CHT/glass_shader.png</texture>
     <object-name>glas</object-name>
     <object-name>glas2</object-name>
   </animation>
@@ -1796,7 +1796,7 @@
 
 
   <model>
-    <path>Aircraft/737-300/Models/Effects/tire-smoke-nose.xml</path>
+    <path>Aircraft/737-300-CHT/Models/Effects/tire-smoke-nose.xml</path>
     <name>tyre-smoke-n</name>
     <offsets>
       <x-m>-4.669</x-m>
@@ -1806,7 +1806,7 @@
   </model>
 
   <model>
-    <path>Aircraft/737-300/Models/Effects/tire-smoke-port.xml</path>
+    <path>Aircraft/737-300-CHT/Models/Effects/tire-smoke-port.xml</path>
     <name>tyre-smoke-p</name>
     <offsets>
       <x-m>7.962</x-m>
@@ -1816,7 +1816,7 @@
   </model>
 
   <model>
-    <path>Aircraft/737-300/Models/Effects/tire-smoke-stbd.xml</path>
+    <path>Aircraft/737-300-CHT/Models/Effects/tire-smoke-stbd.xml</path>
     <name>tyre-smoke-s</name>
     <offsets>
       <x-m>7.962</x-m>
@@ -1826,7 +1826,7 @@
   </model>
 
   <model>
-    <path>Aircraft/737-300/Models/Lights/strobe/strobe10000.xml</path>
+    <path>Aircraft/737-300-CHT/Models/Lights/strobe/strobe10000.xml</path>
     <name>strobe</name>
     <offsets>
       <x-m>11.513</x-m>
@@ -1836,7 +1836,7 @@
   </model>
 
   <model>
-    <path>Aircraft/737-300/Models/Lights/strobe/strobe10000.xml</path>
+    <path>Aircraft/737-300-CHT/Models/Lights/strobe/strobe10000.xml</path>
     <name>strobe</name>
     <offsets>
       <x-m>11.513</x-m>
@@ -1846,7 +1846,7 @@
   </model>
 
   <model>
-    <path>Aircraft/737-300/Models/Lights/strobe/strobe10000.xml</path>
+    <path>Aircraft/737-300-CHT/Models/Lights/strobe/strobe10000.xml</path>
     <name>strobe</name>
     <offsets>
       <x-m>23.58642</x-m>
@@ -1856,7 +1856,7 @@
   </model>
 
   <model>
-    <path>Aircraft/737-300/Models/Lights/beacon/beacon.xml</path>
+    <path>Aircraft/737-300-CHT/Models/Lights/beacon/beacon.xml</path>
     <name>strobe</name>
     <offsets>
       <x-m>4.092</x-m>
@@ -1867,7 +1867,7 @@
 
 
   <model>
-    <path>Aircraft/737-300/Models/Lights/beacon/beacon.xml</path>
+    <path>Aircraft/737-300-CHT/Models/Lights/beacon/beacon.xml</path>
     <name>strobe</name>
     <offsets>
       <x-m>2.816</x-m>
@@ -2121,7 +2121,7 @@
 
   <!-- ENGINE CONTRAILS NEW -->
   <model>
-    <path>Aircraft/737-300/Models/Effects/contrail-new.xml</path>
+    <path>Aircraft/737-300-CHT/Models/Effects/contrail-new.xml</path>
     <offsets>
       <x-m>16.0</x-m>
       <y-m>-4.98</y-m>
@@ -2131,7 +2131,7 @@
   </model>
 
   <model>
-    <path>Aircraft/737-300/Models/Effects/contrail-new.xml</path>
+    <path>Aircraft/737-300-CHT/Models/Effects/contrail-new.xml</path>
     <offsets>
       <x-m>16.0</x-m>
       <y-m>4.98</y-m>
@@ -2142,7 +2142,7 @@
 
   <model>
     <name>Landing-Lights</name>
-    <path>Aircraft/737-300/Models/Lights/landing-light/landing-light.xml</path>
+    <path>Aircraft/737-300-CHT/Models/Lights/landing-light/landing-light.xml</path>
     <offsets>
       <x-m>-5.10</x-m>
       <y-m>0.0</y-m>

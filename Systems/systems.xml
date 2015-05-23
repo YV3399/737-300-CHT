@@ -7,7 +7,7 @@
   </electrical>
 
 <!--  <electrical>
-    <path>Aircraft/737-300/Systems/733-electrical.xml</path>
+    <path>Aircraft/737-300-CHT/Systems/733-electrical.xml</path>
   </electrical>  -->
 
   <pitot>

@@ -5,7 +5,7 @@
 
 	 <model>
      <name>1A</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>-1.955</x-m>
          <y-m>-1.5</y-m>
@@ -15,7 +15,7 @@
    </model> 
 	 <model>
      <name>1B</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>-1.955</x-m>
          <y-m>-1.1</y-m>
@@ -25,7 +25,7 @@
    </model> 
 	 <model>
      <name>1C</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>-1.955</x-m>
          <y-m>-0.7</y-m>
@@ -38,7 +38,7 @@
 
 	 <model>
      <name>1D</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>-2.56</x-m>
          <y-m>0.7</y-m>
@@ -48,7 +48,7 @@
    </model> 
 	 <model>
      <name>1E</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>-2.56</x-m>
          <y-m>1.1</y-m>
@@ -58,7 +58,7 @@
    </model> 
 	 	 <model>
      <name>1F</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>-2.56</x-m>
          <y-m>1.5</y-m>
@@ -71,7 +71,7 @@
 	 
 	 <model>
      <name>2A</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>-1.055</x-m>
          <y-m>-1.5</y-m>
@@ -81,7 +81,7 @@
    </model> 
 	 <model>
      <name>2B</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>-1.055</x-m>
          <y-m>-1.1</y-m>
@@ -91,7 +91,7 @@
    </model> 
 	 <model>
      <name>2C</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>-1.055</x-m>
          <y-m>-0.7</y-m>
@@ -102,7 +102,7 @@
 
 	 <model>
      <name>2D</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>-1.66</x-m>
          <y-m>0.7</y-m>
@@ -112,7 +112,7 @@
    </model> 
 	 <model>
      <name>2E</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>-1.66</x-m>
          <y-m>1.1</y-m>
@@ -122,7 +122,7 @@
    </model> 
 	 	 <model>
      <name>2F</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>-1.66</x-m>
          <y-m>1.5</y-m>
@@ -136,7 +136,7 @@
 	 
 	 <model>
      <name>3A</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>-0.155</x-m>
          <y-m>-1.5</y-m>
@@ -146,7 +146,7 @@
    </model> 
 	 <model>
      <name>3B</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>-0.155</x-m>
          <y-m>-1.1</y-m>
@@ -156,7 +156,7 @@
    </model> 
 	 <model>
      <name>3C</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>-0.155</x-m>
          <y-m>-0.7</y-m>
@@ -167,7 +167,7 @@
 
 	 <model>
      <name>3D</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>-0.76</x-m>
          <y-m>0.7</y-m>
@@ -177,7 +177,7 @@
    </model> 
 	 <model>
      <name>3E</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>-0.76</x-m>
          <y-m>1.1</y-m>
@@ -187,7 +187,7 @@
    </model> 
 	 	 <model>
      <name>3F</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>-0.76</x-m>
          <y-m>1.5</y-m>
@@ -200,7 +200,7 @@
 	 
 	 <model>
      <name>4A</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>0.545</x-m>
          <y-m>-1.5</y-m>
@@ -210,7 +210,7 @@
    </model> 
 	 <model>
      <name>4B</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>0.545</x-m>
          <y-m>-1.1</y-m>
@@ -220,7 +220,7 @@
    </model> 
 	 <model>
      <name>4C</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>0.545</x-m>
          <y-m>-0.7</y-m>
@@ -231,7 +231,7 @@
 
 	 <model>
      <name>4D</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>0.14</x-m>
          <y-m>0.7</y-m>
@@ -241,7 +241,7 @@
    </model> 
 	 <model>
      <name>4E</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>0.14</x-m>
          <y-m>1.1</y-m>
@@ -251,7 +251,7 @@
    </model> 
 	 	 <model>
      <name>4F</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>0.14</x-m>
          <y-m>1.5</y-m>
@@ -265,7 +265,7 @@
 	 
 	 <model>
      <name>5A</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>1.445</x-m>
          <y-m>-1.5</y-m>
@@ -275,7 +275,7 @@
    </model> 
 	 <model>
      <name>5B</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>1.445</x-m>
          <y-m>-1.1</y-m>
@@ -285,7 +285,7 @@
    </model> 
 	 <model>
      <name>5C</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>1.445</x-m>
          <y-m>-0.7</y-m>
@@ -296,7 +296,7 @@
 
 	 <model>
      <name>5D</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>1.04</x-m>
          <y-m>0.7</y-m>
@@ -306,7 +306,7 @@
    </model> 
 	 <model>
      <name>5E</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>1.04</x-m>
          <y-m>1.1</y-m>
@@ -316,7 +316,7 @@
    </model> 
 	 	 <model>
      <name>5F</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>1.04</x-m>
          <y-m>1.5</y-m>
@@ -330,7 +330,7 @@
 	 
 	 <model>
      <name>6A</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>2.345</x-m>
          <y-m>-1.5</y-m>
@@ -340,7 +340,7 @@
    </model> 
 	 <model>
      <name>6B</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>2.345</x-m>
          <y-m>-1.1</y-m>
@@ -350,7 +350,7 @@
    </model> 
 	 <model>
      <name>6C</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>2.345</x-m>
          <y-m>-0.7</y-m>
@@ -361,7 +361,7 @@
 
 	 <model>
      <name>6D</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>1.94</x-m>
          <y-m>0.7</y-m>
@@ -371,7 +371,7 @@
    </model> 
 	 <model>
      <name>6E</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>1.94</x-m>
          <y-m>1.1</y-m>
@@ -381,7 +381,7 @@
    </model> 
 	 	 <model>
      <name>6F</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>1.94</x-m>
          <y-m>1.5</y-m>
@@ -395,7 +395,7 @@
 	 
 	 <model>
      <name>7A</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>3.3</x-m>
          <y-m>-1.5</y-m>
@@ -405,7 +405,7 @@
    </model> 
 	 <model>
      <name>7B</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>3.3</x-m>
          <y-m>-1.1</y-m>
@@ -415,7 +415,7 @@
    </model> 
 	 <model>
      <name>7C</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>3.3</x-m>
          <y-m>-0.7</y-m>
@@ -426,7 +426,7 @@
 
 	 <model>
      <name>7D</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>3.3</x-m>
          <y-m>0.7</y-m>
@@ -436,7 +436,7 @@
    </model> 
 	 <model>
      <name>7E</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>3.3</x-m>
          <y-m>1.1</y-m>
@@ -446,7 +446,7 @@
    </model> 
 	 	 <model>
      <name>7F</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>3.3</x-m>
          <y-m>1.5</y-m>
@@ -459,7 +459,7 @@
 	 
 	 <model>
      <name>8A</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>4.2</x-m>
          <y-m>-1.5</y-m>
@@ -469,7 +469,7 @@
    </model> 
 	 <model>
      <name>8B</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>4.2</x-m>
          <y-m>-1.1</y-m>
@@ -479,7 +479,7 @@
    </model> 
 	 <model>
      <name>8C</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>4.2</x-m>
          <y-m>-0.7</y-m>
@@ -490,7 +490,7 @@
 
 	 <model>
      <name>8D</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>4.2</x-m>
          <y-m>0.7</y-m>
@@ -500,7 +500,7 @@
    </model> 
 	 <model>
      <name>8E</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>4.2</x-m>
          <y-m>1.1</y-m>
@@ -510,7 +510,7 @@
    </model> 
 	 	 <model>
      <name>8F</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>4.2</x-m>
          <y-m>1.5</y-m>
@@ -523,7 +523,7 @@
 	 
 	 <model>
      <name>9A</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>5.1</x-m>
          <y-m>-1.5</y-m>
@@ -533,7 +533,7 @@
    </model> 
 	 <model>
      <name>9B</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>5.1</x-m>
          <y-m>-1.1</y-m>
@@ -543,7 +543,7 @@
    </model> 
 	 <model>
      <name>9C</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>5.1</x-m>
          <y-m>-0.7</y-m>
@@ -554,7 +554,7 @@
 
 	 <model>
      <name>9D</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>5.1</x-m>
          <y-m>0.7</y-m>
@@ -564,7 +564,7 @@
    </model> 
 	 <model>
      <name>9E</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>5.1</x-m>
          <y-m>1.1</y-m>
@@ -574,7 +574,7 @@
    </model> 
 	 	 <model>
      <name>9F</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>5.1</x-m>
          <y-m>1.5</y-m>
@@ -587,7 +587,7 @@
 	 <!-- Emergency Exit Row -->
 <!--	 <model>
      <name>10A</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>6.0</x-m>
          <y-m>-1.5</y-m>
@@ -597,7 +597,7 @@
    </model>  -->
 	 <model>
      <name>10B</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>6.0</x-m>
          <y-m>-1.1</y-m>
@@ -607,7 +607,7 @@
    </model> 
 	 <model>
      <name>10C</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>6.0</x-m>
          <y-m>-0.7</y-m>
@@ -618,7 +618,7 @@
 
 	 <model>
      <name>10D</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>6.0</x-m>
          <y-m>0.7</y-m>
@@ -628,7 +628,7 @@
    </model> 
 	 <model>
      <name>10E</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>6.0</x-m>
          <y-m>1.1</y-m>
@@ -638,7 +638,7 @@
    </model> 
 <!-- 	 <model>
      <name>10F</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>6.0</x-m>
          <y-m>1.5</y-m>
@@ -651,7 +651,7 @@
 	 
 	 <model>
      <name>11A</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>6.9</x-m>
          <y-m>-1.5</y-m>
@@ -661,7 +661,7 @@
    </model> 
 	 <model>
      <name>11B</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>6.9</x-m>
          <y-m>-1.1</y-m>
@@ -671,7 +671,7 @@
    </model> 
 	 <model>
      <name>11C</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>6.9</x-m>
          <y-m>-0.7</y-m>
@@ -682,7 +682,7 @@
 
 	 <model>
      <name>11D</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>6.9</x-m>
          <y-m>0.7</y-m>
@@ -692,7 +692,7 @@
    </model> 
 	 <model>
      <name>11E</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>6.9</x-m>
          <y-m>1.1</y-m>
@@ -702,7 +702,7 @@
    </model> 
 	 	 <model>
      <name>11F</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>6.9</x-m>
          <y-m>1.5</y-m>
@@ -715,7 +715,7 @@
 	 
 	 <model>
      <name>12A</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>7.8</x-m>
          <y-m>-1.5</y-m>
@@ -725,7 +725,7 @@
    </model> 
 	 <model>
      <name>12B</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>7.8</x-m>
          <y-m>-1.1</y-m>
@@ -735,7 +735,7 @@
    </model> 
 	 <model>
      <name>12C</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>7.8</x-m>
          <y-m>-0.7</y-m>
@@ -746,7 +746,7 @@
 
 	 <model>
      <name>12D</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>7.8</x-m>
          <y-m>0.7</y-m>
@@ -756,7 +756,7 @@
    </model> 
 	 <model>
      <name>12E</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>7.8</x-m>
          <y-m>1.1</y-m>
@@ -766,7 +766,7 @@
    </model> 
 	 	 <model>
      <name>12F</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>7.8</x-m>
          <y-m>1.5</y-m>
@@ -779,7 +779,7 @@
 	 
 	 <model>
      <name>13A</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>8.7</x-m>
          <y-m>-1.5</y-m>
@@ -789,7 +789,7 @@
    </model> 
 	 <model>
      <name>13B</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>8.7</x-m>
          <y-m>-1.1</y-m>
@@ -799,7 +799,7 @@
    </model> 
 	 <model>
      <name>13C</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>8.7</x-m>
          <y-m>-0.7</y-m>
@@ -810,7 +810,7 @@
 
 	 <model>
      <name>13D</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>8.7</x-m>
          <y-m>0.7</y-m>
@@ -820,7 +820,7 @@
    </model> 
 	 <model>
      <name>13E</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>8.7</x-m>
          <y-m>1.1</y-m>
@@ -830,7 +830,7 @@
    </model> 
 	 	 <model>
      <name>13F</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>8.7</x-m>
          <y-m>1.5</y-m>
@@ -843,7 +843,7 @@
 	 
 	 <model>
      <name>14A</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>9.6</x-m>
          <y-m>-1.5</y-m>
@@ -853,7 +853,7 @@
    </model> 
 	 <model>
      <name>14B</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>9.6</x-m>
          <y-m>-1.1</y-m>
@@ -863,7 +863,7 @@
    </model> 
 	 <model>
      <name>14C</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>9.6</x-m>
          <y-m>-0.7</y-m>
@@ -874,7 +874,7 @@
 
 	 <model>
      <name>14D</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>9.6</x-m>
          <y-m>0.7</y-m>
@@ -884,7 +884,7 @@
    </model> 
 	 <model>
      <name>14E</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>9.6</x-m>
          <y-m>1.1</y-m>
@@ -894,7 +894,7 @@
    </model> 
 	 	 <model>
      <name>14F</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>9.6</x-m>
          <y-m>1.5</y-m>
@@ -908,7 +908,7 @@
 	 
 	 <model>
      <name>15A</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>10.5</x-m>
          <y-m>-1.5</y-m>
@@ -918,7 +918,7 @@
    </model> 
 	 <model>
      <name>15B</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>10.5</x-m>
          <y-m>-1.1</y-m>
@@ -928,7 +928,7 @@
    </model> 
 	 <model>
      <name>15C</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>10.5</x-m>
          <y-m>-0.7</y-m>
@@ -939,7 +939,7 @@
 
 	 <model>
      <name>15D</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>10.5</x-m>
          <y-m>0.7</y-m>
@@ -949,7 +949,7 @@
    </model> 
 	 <model>
      <name>15E</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>10.5</x-m>
          <y-m>1.1</y-m>
@@ -959,7 +959,7 @@
    </model> 
 	 	 <model>
      <name>15F</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>10.5</x-m>
          <y-m>1.5</y-m>
@@ -972,7 +972,7 @@
 	 
 	 <model>
      <name>16A</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>11.4</x-m>
          <y-m>-1.5</y-m>
@@ -982,7 +982,7 @@
    </model> 
 	 <model>
      <name>16B</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>11.4</x-m>
          <y-m>-1.1</y-m>
@@ -992,7 +992,7 @@
    </model> 
 	 <model>
      <name>16C</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>11.4</x-m>
          <y-m>-0.7</y-m>
@@ -1003,7 +1003,7 @@
 
 	 <model>
      <name>16D</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>11.4</x-m>
          <y-m>0.7</y-m>
@@ -1013,7 +1013,7 @@
    </model> 
 	 <model>
      <name>16E</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>11.4</x-m>
          <y-m>1.1</y-m>
@@ -1023,7 +1023,7 @@
    </model> 
 	 	 <model>
      <name>16F</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>11.4</x-m>
          <y-m>1.5</y-m>
@@ -1036,7 +1036,7 @@
 	 
 	 <model>
      <name>17A</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>12.3</x-m>
          <y-m>-1.5</y-m>
@@ -1046,7 +1046,7 @@
    </model> 
 	 <model>
      <name>17B</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>12.3</x-m>
          <y-m>-1.1</y-m>
@@ -1056,7 +1056,7 @@
    </model> 
 	 <model>
      <name>17C</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>12.3</x-m>
          <y-m>-0.7</y-m>
@@ -1067,7 +1067,7 @@
 
 	 <model>
      <name>17D</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>12.3</x-m>
          <y-m>0.7</y-m>
@@ -1077,7 +1077,7 @@
    </model> 
 	 <model>
      <name>17E</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>12.3</x-m>
          <y-m>1.1</y-m>
@@ -1087,7 +1087,7 @@
    </model> 
 	 	 <model>
      <name>17F</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>12.3</x-m>
          <y-m>1.5</y-m>
@@ -1100,7 +1100,7 @@
 	 
 	 <model>
      <name>18A</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>13.2</x-m>
          <y-m>-1.5</y-m>
@@ -1110,7 +1110,7 @@
    </model> 
 	 <model>
      <name>18B</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>13.2</x-m>
          <y-m>-1.1</y-m>
@@ -1120,7 +1120,7 @@
    </model> 
 	 <model>
      <name>18C</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>13.2</x-m>
          <y-m>-0.7</y-m>
@@ -1131,7 +1131,7 @@
 
 	 <model>
      <name>18D</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>13.2</x-m>
          <y-m>0.7</y-m>
@@ -1141,7 +1141,7 @@
    </model> 
 	 <model>
      <name>18E</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>13.2</x-m>
          <y-m>1.1</y-m>
@@ -1151,7 +1151,7 @@
    </model> 
 	 	 <model>
      <name>18F</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>13.2</x-m>
          <y-m>1.5</y-m>
@@ -1164,7 +1164,7 @@
 	 
 	 <model>
      <name>19A</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>14.1</x-m>
          <y-m>-1.5</y-m>
@@ -1174,7 +1174,7 @@
    </model> 
 	 <model>
      <name>19B</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>14.1</x-m>
          <y-m>-1.1</y-m>
@@ -1184,7 +1184,7 @@
    </model> 
 	 <model>
      <name>19C</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>14.1</x-m>
          <y-m>-0.7</y-m>
@@ -1195,7 +1195,7 @@
 
 	 <model>
      <name>19D</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>14.1</x-m>
          <y-m>0.7</y-m>
@@ -1205,7 +1205,7 @@
    </model> 
 	 <model>
      <name>19E</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>14.1</x-m>
          <y-m>1.1</y-m>
@@ -1215,7 +1215,7 @@
    </model> 
 	 	 <model>
      <name>19F</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>14.1</x-m>
          <y-m>1.5</y-m>
@@ -1228,7 +1228,7 @@
 	 
 	 <model>
      <name>20A</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>15.0</x-m>
          <y-m>-1.4</y-m>
@@ -1238,7 +1238,7 @@
    </model> 
 	 <model>
      <name>20B</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>15.0</x-m>
          <y-m>-1.0</y-m>
@@ -1248,7 +1248,7 @@
    </model> 
 	 <model>
      <name>20C</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>15.0</x-m>
          <y-m>-0.6</y-m>
@@ -1259,7 +1259,7 @@
 
 	 <model>
      <name>20D</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>15.0</x-m>
          <y-m>0.6</y-m>
@@ -1269,7 +1269,7 @@
    </model> 
 	 <model>
      <name>20E</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>15.0</x-m>
          <y-m>1.0</y-m>
@@ -1279,7 +1279,7 @@
    </model> 
 	 	 <model>
      <name>20F</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>15.0</x-m>
          <y-m>1.4</y-m>
@@ -1292,7 +1292,7 @@
 	 
 	 <model>
      <name>21A</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>15.9</x-m>
          <y-m>-1.3</y-m>
@@ -1302,7 +1302,7 @@
    </model> 
 	 <model>
      <name>21B</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>15.9</x-m>
          <y-m>-0.9</y-m>
@@ -1312,7 +1312,7 @@
    </model> 
 	 <model>
      <name>21C</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>15.9</x-m>
          <y-m>-0.5</y-m>
@@ -1323,7 +1323,7 @@
 
 	 <model>
      <name>21D</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>15.9</x-m>
          <y-m>0.5</y-m>
@@ -1333,7 +1333,7 @@
    </model> 
 	 <model>
      <name>21E</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>15.9</x-m>
          <y-m>0.9</y-m>
@@ -1343,7 +1343,7 @@
    </model> 
 	 	 <model>
      <name>21F</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>15.9</x-m>
          <y-m>1.3</y-m>
@@ -1356,7 +1356,7 @@
 	 
 <!--	 <model>
      <name>22A</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>16.8</x-m>
          <y-m>-1.5</y-m>
@@ -1366,7 +1366,7 @@
    </model> 
 	 <model>
      <name>22B</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>16.8</x-m>
          <y-m>-1.1</y-m>
@@ -1376,7 +1376,7 @@
    </model> 
 	 <model>
      <name>22C</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>16.8</x-m>
          <y-m>-0.7</y-m>
@@ -1387,7 +1387,7 @@
 
 	 <model>
      <name>22D</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>16.8</x-m>
          <y-m>0.7</y-m>
@@ -1397,7 +1397,7 @@
    </model> 
 	 <model>
      <name>22E</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>16.8</x-m>
          <y-m>1.1</y-m>
@@ -1407,7 +1407,7 @@
    </model> 
 	 	 <model>
      <name>22F</name>
-       <path>Aircraft/737-300/Models/Seating/737-300-seat.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Seating/737-300-seat.ac</path>
        <offsets>
          <x-m>16.8</x-m>
          <y-m>1.5</y-m>

@@ -5,7 +5,7 @@
 
 	 <model>
      <name>Cockpit Bulkhead</name>
-       <path>Aircraft/737-300/Models/CockpitBulkhead/cockpit-bulkhead.ac</path>
+       <path>Aircraft/737-300-CHT/Models/CockpitBulkhead/cockpit-bulkhead.ac</path>
        <offsets>
          <x-m>0.0</x-m>
          <y-m>0.0</y-m>

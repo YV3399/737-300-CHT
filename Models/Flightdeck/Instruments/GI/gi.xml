@@ -4,7 +4,7 @@
 
   <model>
     <name>Nose Gear Red Annun</name>
-    <path>Aircraft/737-300/Models/Flightdeck/Instruments/GI/nose-gear-red.xml</path>
+    <path>Aircraft/737-300-CHT/Models/Flightdeck/Instruments/GI/nose-gear-red.xml</path>
     <offsets>
       <x-m>0</x-m>
       <y-m>0</y-m>
@@ -17,7 +17,7 @@
 
   <model>
     <name>Nose Gear Green Annun</name>
-    <path>Aircraft/737-300/Models/Flightdeck/Instruments/GI/nose-gear-green.xml</path>
+    <path>Aircraft/737-300-CHT/Models/Flightdeck/Instruments/GI/nose-gear-green.xml</path>
     <offsets>
       <x-m>0</x-m>
       <y-m>0</y-m>
@@ -30,7 +30,7 @@
 
   <model>
     <name>Left Gear Red Annun</name>
-    <path>Aircraft/737-300/Models/Flightdeck/Instruments/GI/left-gear-red.xml</path>
+    <path>Aircraft/737-300-CHT/Models/Flightdeck/Instruments/GI/left-gear-red.xml</path>
     <offsets>
       <x-m>0</x-m>
       <y-m>-0.010</y-m>
@@ -43,7 +43,7 @@
 
   <model>
     <name>Left Gear Green Annun</name>
-    <path>Aircraft/737-300/Models/Flightdeck/Instruments/GI/left-gear-green.xml</path>
+    <path>Aircraft/737-300-CHT/Models/Flightdeck/Instruments/GI/left-gear-green.xml</path>
     <offsets>
       <x-m>0</x-m>
       <y-m>-0.010</y-m>
@@ -56,7 +56,7 @@
 
   <model>
     <name>Right Gear Red Annun</name>
-    <path>Aircraft/737-300/Models/Flightdeck/Instruments/GI/right-gear-red.xml</path>
+    <path>Aircraft/737-300-CHT/Models/Flightdeck/Instruments/GI/right-gear-red.xml</path>
     <offsets>
       <x-m>0</x-m>
       <y-m>0.010</y-m>
@@ -69,7 +69,7 @@
 
   <model>
     <name>Right Gear Green Annun</name>
-    <path>Aircraft/737-300/Models/Flightdeck/Instruments/GI/right-gear-green.xml</path>
+    <path>Aircraft/737-300-CHT/Models/Flightdeck/Instruments/GI/right-gear-green.xml</path>
     <offsets>
       <x-m>0</x-m>
       <y-m>0.010</y-m>

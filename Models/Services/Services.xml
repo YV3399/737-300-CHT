@@ -3,7 +3,7 @@
   <!-- Chocks -->
   <model>
     <name>Chocks</name>
-    <path>Aircraft/737-300/Models/Services/Chocks/chocks.xml</path>
+    <path>Aircraft/737-300-CHT/Models/Services/Chocks/chocks.xml</path>
     <condition>
       <and>
         <property>/controls/groundservice/chocks</property>
@@ -26,7 +26,7 @@
   <!-- Engine Safety Cones -->
   <model>
     <name>Cone</name>
-    <path>Aircraft/737-300/Models/Services/Safety-Cones/safety-cones.xml</path>
+    <path>Aircraft/737-300-CHT/Models/Services/Safety-Cones/safety-cones.xml</path>
     <condition>
       <and>
         <property>/controls/groundservice/safety-cones</property>
@@ -49,7 +49,7 @@
   <!-- Passenger Stairway (Front)-->
   <model>
     <name>Cone</name>
-    <path>Aircraft/737-300/Models/Services/Stairways/stairs.xml</path>
+    <path>Aircraft/737-300-CHT/Models/Services/Stairways/stairs.xml</path>
     <condition>
       <and>
         <property>/controls/groundservice/stairs1</property>
@@ -72,7 +72,7 @@
   <!-- Passenger Stairway (Rear)-->
   <model>
     <name>Cone</name>
-    <path>Aircraft/737-300/Models/Services/Stairways/stairs2.xml</path>
+    <path>Aircraft/737-300-CHT/Models/Services/Stairways/stairs2.xml</path>
     <condition>
       <and>
         <property>/controls/groundservice/stairs2</property>
@@ -95,7 +95,7 @@
   <!-- Bus -->
   <model>
     <name>Bus</name>
-    <path>Aircraft/737-300/Models/Services/Bus/bus.xml</path>
+    <path>Aircraft/737-300-CHT/Models/Services/Bus/bus.xml</path>
     <condition>
       <and>
         <property>/controls/groundservice/bus</property>
@@ -118,7 +118,7 @@
   <!-- Baggage (Front)-->
   <model>
     <name>Baggage</name>
-    <path>Aircraft/737-300/Models/Services/Baggage/baggage.xml</path>
+    <path>Aircraft/737-300-CHT/Models/Services/Baggage/baggage.xml</path>
     <condition>
       <and>
         <property>/controls/groundservice/baggage1</property>
@@ -141,7 +141,7 @@
   <!-- Baggage (Front)-->
   <model>
     <name>baggage</name>
-    <path>Aircraft/737-300/Models/Services/Baggage/baggage2.xml</path>
+    <path>Aircraft/737-300-CHT/Models/Services/Baggage/baggage2.xml</path>
     <condition>
       <and>
         <property>/controls/groundservice/baggage2</property>
@@ -164,7 +164,7 @@
   <!-- Gpu -->
   <model>
     <name>Gpu</name>
-    <path>Aircraft/737-300/Models/Services/Gpu/gpu.xml</path>
+    <path>Aircraft/737-300-CHT/Models/Services/Gpu/gpu.xml</path>
     <condition>
       <and>
         <property>/controls/groundservice/gpu</property>
@@ -189,7 +189,7 @@
   <!-- Fuel truck -->
   <model>
     <name>Fuel truck</name>
-    <path>Aircraft/737-300/Models/Services/Fuel/fuel.xml</path>
+    <path>Aircraft/737-300-CHT/Models/Services/Fuel/fuel.xml</path>
     <condition>
       <and>
         <property>/controls/groundservice/Fuel</property>
@@ -212,7 +212,7 @@
   <!-- Catering Vehicle Front -->
   <model>
     <name>Cateringback Vehicle</name>
-    <path>Aircraft/737-300/Models/Services/Catering/catering.xml</path>
+    <path>Aircraft/737-300-CHT/Models/Services/Catering/catering.xml</path>
     <condition>
       <and>
         <property>/controls/groundservice/catering1</property>
@@ -235,7 +235,7 @@
   <!-- Catering Vehicle Rear -->
   <model>
     <name>Cateringback Vehicle</name>
-    <path>Aircraft/737-300/Models/Services/Catering/catering2.xml</path>
+    <path>Aircraft/737-300-CHT/Models/Services/Catering/catering2.xml</path>
     <condition>
       <and>
         <property>/controls/groundservice/catering2</property>
@@ -258,7 +258,7 @@
   <!-- Car Service -->
   <model>
     <name>Car Service</name>
-    <path>Aircraft/737-300/Models/Services/Car/car.xml</path>
+    <path>Aircraft/737-300-CHT/Models/Services/Car/car.xml</path>
     <condition>
       <and>
         <property>/controls/groundservice/car_service</property>
@@ -281,7 +281,7 @@
   <!-- Engine Protection -->
   <model>
     <name>Engine Protection</name>
-    <path>Aircraft/737-300/Models/Services/EngineProtection/Disc.xml</path>
+    <path>Aircraft/737-300-CHT/Models/Services/EngineProtection/Disc.xml</path>
     <condition>
       <and>
         <property>/controls/groundservice/protection</property>

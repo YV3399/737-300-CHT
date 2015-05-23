@@ -1,7 +1,7 @@
 <PropertyList>
 
     <panel>
-        <path>Aircraft/737-300/Models/Flightdeck/Instruments/EFB/chart.xml</path>
+        <path>Aircraft/737-300-CHT/Models/Flightdeck/Instruments/EFB/chart.xml</path>
         <bottom-left>
             <x-m> 0.01</x-m>
             <y-m>-0.065</y-m>

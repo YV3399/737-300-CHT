@@ -16,14 +16,14 @@
     <co-pilot type="bool">true</co-pilot>
     <virtual-cockpit archive="y">true</virtual-cockpit>
     <panel>
-      <path type="string">Aircraft/737-300/Models/733-2d-panel/733-2d-panel.xml</path>
+      <path type="string">Aircraft/737-300-CHT/Models/733-2d-panel/733-2d-panel.xml</path>
       <visibility>false</visibility>
     </panel>
     <instrumentation>
-      <path type="string">Aircraft/737-300/Systems/instrumentation.xml</path>
+      <path type="string">Aircraft/737-300-CHT/Systems/instrumentation.xml</path>
     </instrumentation>
     <model>
-      <path type="string">Aircraft/737-300/Models/737-300/737-300.xml</path>
+      <path type="string">Aircraft/737-300-CHT/Models/737-300-CHT/737-300.xml</path>
       <pushback>
         <kp type="double">1000</kp>
         <kd type="double">0</kd>
@@ -46,7 +46,7 @@
       </door>
     </model>
     <startup>
-      <splash-texture>Aircraft/737-300/737-300.png</splash-texture>
+      <splash-texture>Aircraft/737-300-CHT/737-300.png</splash-texture>
     </startup>
     <view>
       <internal archive="y">true</internal>
@@ -262,18 +262,18 @@
 
     <systems>
       <autopilot>
-        <path>Aircraft/737-300/Systems/733-autopilot.xml</path>
+        <path>Aircraft/737-300-CHT/Systems/733-autopilot.xml</path>
       </autopilot>
-      <path>Aircraft/737-300/Systems/systems.xml</path>
+      <path>Aircraft/737-300-CHT/Systems/systems.xml</path>
     </systems>
 
     <sound>
-      <path>Aircraft/737-300/Sounds/737-sound.xml</path>
+      <path>Aircraft/737-300-CHT/Sounds/737-sound.xml</path>
       <switch type = "bool"></switch>
     </sound>
     <hud>
       <enable3d n="1">false</enable3d>
-      <path n="1" type="string">Aircraft/737-300/Models/Hud/737-300.xml</path>
+      <path n="1" type="string">Aircraft/737-300-CHT/Models/Hud/737-300.xml</path>
     </hud>
     <help>
       <title>Boeing 737-300</title>
@@ -398,7 +398,7 @@
             <binding>
               <command>nasal</command>
               <script>
-                var dlg = gui.Dialog.new("/sim/gui/dialogs/lights-config/dialog", "Aircraft/737-300/Dialogs/lights-dialog.xml");
+                var dlg = gui.Dialog.new("/sim/gui/dialogs/lights-config/dialog", "Aircraft/737-300-CHT/Dialogs/lights-dialog.xml");
               </script>
             </binding>
             <binding>
@@ -424,7 +424,7 @@
 
               <command>nasal</command>
               <script>
-                var mal = gui.Dialog.new("/sim/gui/dialogs/ground-ops-config/dialog", "Aircraft/737-300/Dialogs/ground-ops-dialog.xml");
+                var mal = gui.Dialog.new("/sim/gui/dialogs/ground-ops-config/dialog", "Aircraft/737-300-CHT/Dialogs/ground-ops-dialog.xml");
                 mal.open();
               </script>
             </binding>
@@ -434,7 +434,7 @@
             <binding>
               <command>nasal</command>
               <script>
-                var ddlg = gui.Dialog.new("/sim/gui/dialogs/doors-config/dialog", "Aircraft/737-300/Dialogs/doors-dialog.xml");
+                var ddlg = gui.Dialog.new("/sim/gui/dialogs/doors-config/dialog", "Aircraft/737-300-CHT/Dialogs/doors-dialog.xml");
                 ddlg.open();
               </script>
             </binding>
@@ -1480,58 +1480,58 @@
 
   <nasal>
     <Boeing733>
-      <file>Aircraft/737-300/Nasal/liveries.nas</file>
-      <file>Aircraft/737-300/Nasal/autostart.nas</file>
+      <file>Aircraft/737-300-CHT/Nasal/liveries.nas</file>
+      <file>Aircraft/737-300-CHT/Nasal/autostart.nas</file>
     </Boeing733>
     <electrical>
-      <file>Aircraft/737-300/Nasal/electrical.nas</file>
+      <file>Aircraft/737-300-CHT/Nasal/electrical.nas</file>
     </electrical>
     <reversethrust>
-      <file>Aircraft/737-300/Nasal/reverse-thrust.nas</file>
+      <file>Aircraft/737-300-CHT/Nasal/reverse-thrust.nas</file>
     </reversethrust>
     <airground>
-      <file>Aircraft/737-300/Systems/air-ground.nas</file>
+      <file>Aircraft/737-300-CHT/Systems/air-ground.nas</file>
     </airground>
     <sbvalve>
-      <file>Aircraft/737-300/Systems/sbvalve.nas</file>
+      <file>Aircraft/737-300-CHT/Systems/sbvalve.nas</file>
     </sbvalve>
     <tyresmoke>
-      <file>Aircraft/737-300/Nasal/tire-smoke.nas</file>
+      <file>Aircraft/737-300-CHT/Nasal/tire-smoke.nas</file>
     </tyresmoke>
     <dialogs>
-      <file>Aircraft/737-300/Nasal/dialogs.nas</file>
+      <file>Aircraft/737-300-CHT/Nasal/dialogs.nas</file>
     </dialogs>
     <customkeys>
-      <file>Aircraft/737-300/Nasal/customkeys.nas</file>
+      <file>Aircraft/737-300-CHT/Nasal/customkeys.nas</file>
     </customkeys>
     <copilot>
-      <file>Aircraft/737-300/Nasal/copilot-vs.nas</file>
-      <file>Aircraft/737-300/Nasal/copilot-gear.nas</file>
-      <file>Aircraft/737-300/Nasal/copilot-flaps.nas</file>
+      <file>Aircraft/737-300-CHT/Nasal/copilot-vs.nas</file>
+      <file>Aircraft/737-300-CHT/Nasal/copilot-gear.nas</file>
+      <file>Aircraft/737-300-CHT/Nasal/copilot-flaps.nas</file>
     </copilot>
     <limits>
-      <file>Aircraft/737-300/Nasal/limits.nas</file>
+      <file>Aircraft/737-300-CHT/Nasal/limits.nas</file>
     </limits>
     <doors>
-      <file>Aircraft/737-300/Nasal/doors.nas</file>
+      <file>Aircraft/737-300-CHT/Nasal/doors.nas</file>
     </doors>
     <lights>
-      <file>Aircraft/737-300/Nasal/lights.nas</file>
+      <file>Aircraft/737-300-CHT/Nasal/lights.nas</file>
     </lights>
     <cdu>
-      <file>Aircraft/737-300/Models/Flightdeck/Instruments/CDU/cdu.nas</file>
+      <file>Aircraft/737-300-CHT/Models/Flightdeck/Instruments/CDU/cdu.nas</file>
     </cdu>
     <popway>
-      <file>Aircraft/737-300/Nasal/popway.nas</file>
+      <file>Aircraft/737-300-CHT/Nasal/popway.nas</file>
     </popway>
     <apautodisengage>
-      <file>Aircraft/737-300/Nasal/apdis.nas</file>
+      <file>Aircraft/737-300-CHT/Nasal/apdis.nas</file>
     </apautodisengage>
     <apdis-warn>
-      <file>Aircraft/737-300/Nasal/apdis-warn.nas</file>
+      <file>Aircraft/737-300-CHT/Nasal/apdis-warn.nas</file>
     </apdis-warn>
     <apdis-warn-off>
-      <file>Aircraft/737-300/Nasal/apdis-warn-off.nas</file>
+      <file>Aircraft/737-300-CHT/Nasal/apdis-warn-off.nas</file>
     </apdis-warn-off>
   </nasal>
 </PropertyList>

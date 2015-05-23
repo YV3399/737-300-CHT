@@ -5,7 +5,7 @@
 
 	 <model>
      <name>Overhead Bins</name>
-       <path>Aircraft/737-300/Models/Overhead/overhead.ac</path>
+       <path>Aircraft/737-300-CHT/Models/Overhead/overhead.ac</path>
        <offsets>
          <x-m>0.0</x-m>
          <y-m>0.0</y-m>

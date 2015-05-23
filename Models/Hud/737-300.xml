@@ -4,45 +4,45 @@
 	<name>Boeing 737-300 Hud</name>
 	
 	<import>
-		<path>Aircraft/737-300/Models/Hud/elements/turn-bank-indicator.xml</path>
+		<path>Aircraft/737-300-CHT/Models/Hud/elements/turn-bank-indicator.xml</path>
 		<y-offset>-195</y-offset>
 	</import>
 
 	<import>
-		<path>Aircraft/737-300/Models/Hud/elements/coordinates.xml</path>
+		<path>Aircraft/737-300-CHT/Models/Hud/elements/coordinates.xml</path>
 		<y-offset>190</y-offset>
 	</import>
 
 	<import>
-		<path>Aircraft/737-300/Models/Hud/elements/compass.xml</path>
+		<path>Aircraft/737-300-CHT/Models/Hud/elements/compass.xml</path>
 		<y-offset>190</y-offset>
 	</import>
 
 	<import>
-		<path>Aircraft/737-300/Models/Hud/elements/controls.xml</path>
+		<path>Aircraft/737-300-CHT/Models/Hud/elements/controls.xml</path>
 	</import>
 
 	<import>
-		<path>Aircraft/737-300/Models/Hud/elements/parameters.xml</path>
+		<path>Aircraft/737-300-CHT/Models/Hud/elements/parameters.xml</path>
 	</import>
 
 	<import>
-		<path>Aircraft/737-300/Models/Hud/elements/autopilot.xml</path>
+		<path>Aircraft/737-300-CHT/Models/Hud/elements/autopilot.xml</path>
 		<x-offset>-90</x-offset>
 		<y-offset>160</y-offset>
 	</import>
 
     <import>
-		<path>Aircraft/737-300/Models/Hud/elements/route.xml</path>
+		<path>Aircraft/737-300-CHT/Models/Hud/elements/route.xml</path>
 		<x-offset>-300</x-offset>
 		<y-offset>160</y-offset>
 	</import>
 
 	<import>
-		<path>Aircraft/737-300/Models/Hud/elements/ladder.xml</path>
+		<path>Aircraft/737-300-CHT/Models/Hud/elements/ladder.xml</path>
 	</import>
 
 	<import>
-		<path>Aircraft/737-300/Models/Hud/elements/runway.xml</path>
+		<path>Aircraft/737-300-CHT/Models/Hud/elements/runway.xml</path>
 	</import>
 </PropertyList>
