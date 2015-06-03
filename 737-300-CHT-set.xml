@@ -23,7 +23,7 @@
       <path type="string">Aircraft/737-300-CHT/Systems/instrumentation.xml</path>
     </instrumentation>
     <model>
-      <path type="string">Aircraft/737-300-CHT/Models/737-300-CHT/737-300.xml</path>
+      <path type="string">Aircraft/737-300-CHT/Models/737-300/737-300.xml</path>
       <pushback>
         <kp type="double">1000</kp>
         <kd type="double">0</kd>
