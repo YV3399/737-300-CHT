@@ -279,7 +279,7 @@
       <title>Boeing 737-300</title>
       <text>
         Keys: 
-        Ctrl-Tab      = Set AutoBrake Level
+        =        = Set AutoBrake Level
         Del            = Thrust Reverse
         Up/Down    = Control Elevator / Adjust A/P Alt and V/S
         PgUp/PgDn = Control Throttle / Adjust A/P IAS and Mach
@@ -736,8 +736,8 @@
         </binding>
       </key>
 
-      <key n="9">
-        <name>Tab</name>
+      <key n="61">
+        <name>=</name>
         <mod-ctrl>
           <desc>switch autobrake</desc>
           <binding>
