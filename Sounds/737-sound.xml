@@ -1,10 +1,35 @@
 <?xml version="1.0"?>
 
-<!-- New Sounds By Gabriel Hernandez(YV3399) -->
+<!-- New Sounds 737-300 By Gabriel Hernandez(YV3399) -->
 
 <PropertyList>
 	<fx>
 		
+<leftstartup>
+      <name>leftenginestart</name>
+      <path>Aircraft/737-300-CHT/Sounds/engine-start.wav</path>
+      <mode>once</mode>
+      <condition>
+        <property>/controls/engines/engine[0]/starter</property>
+      </condition>
+      <volume>
+        <factor>0.75</factor>
+      </volume>
+    </leftstartup>
+
+    <rightstartup>
+      <name>rightenginestart</name>
+      <path>Aircraft/737-300-CHT/Sounds/engine-start.wav</path>
+      <mode>once</mode>
+      <condition>
+        <property>/controls/engines/engine[1]/starter</property>
+      </condition>
+      <volume>
+        <factor>0.75</factor>
+      </volume>
+    </rightstartup>
+
+
 	<engine>
 		<name>a320_a1s</name>
 		<mode>looped</mode>
@@ -42,12 +67,7 @@
 			<z>0.0</z>
 		</position>
 	</engine>
-	
-	
-	
-	
-	
-	
+
 	<engine>
 		<name>a320_a11</name>
 		<mode>looped</mode>
@@ -203,15 +223,6 @@
 			<z>0.0</z>
 		</position>
 	</engine>
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	<engine>
 		<name>a320_a21</name>
@@ -370,13 +381,7 @@
 			<z>0.0</z>
 		</position>
 	</engine>
-	
-	
-	
-	
-	
-	
-	
+
 	<engine>
 		<name>xa320_a11</name>
 		<mode>looped</mode>
@@ -534,18 +539,17 @@
       </volume>
     </rumble>
 		
-		 <flap>
+    <flap>
       <name>flaps</name>
       <mode>in-transit</mode>
-      <path>/Aircraft/737-300-CHT/Sounds/flaps.wav</path>
+      <path>Aircraft/737-300-CHT/Sounds/flaps.wav</path>
       <property>/surface-positions/flap-pos-norm</property>
       <volume>
         <factor>0.45</factor>
       </volume>
     </flap>
 
-
-		<gear>
+     <gear>
       <name>gear</name>
       <mode>in-transit</mode>
       <path>Aircraft/737-300-CHT/Sounds/gear.wav</path>
@@ -622,7 +626,7 @@
 			</volume>
 		</trimming>
 		
-		 <stall>
+   <stall>
       <name>stall</name>
       <mode>looped</mode>
       <path>Aircraft/737-300-CHT/Sounds/stall.wav</path>
@@ -723,24 +727,7 @@
         <max-dist>50.0</max-dist>
     </deice>
 
-    <seatbelt>
-    	<name>cabinalert</name>
-    	<path>Aircraft/737-300-CHT/Sounds/cabinalert.wav</path>
-    	<mode>once</mode>
-    	<condition>
-    		<or>
-    			<property>sim/sound/no-smoking-sign</property>
-    			<property>sim/sound/seatbelt-sign</property>
-    			
-    			<not><property>sim/sound/no-smoking-sign</property></not>
-    			<not><property>sim/sound/seatbelt-sign</property></not>
-    		</or>
-    	</condition>
-    	<volume>
-    		<property>sim/current-view/internal</property>
-    	</volume>
-    </seatbelt>
-    
+       
 <!-- GPWS -->
 
    <alt2500>
