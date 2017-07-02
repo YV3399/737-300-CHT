@@ -265,6 +265,9 @@
         <path>Aircraft/737-300-CHT/Systems/733-autopilot.xml</path>
       </autopilot>
       <path>Aircraft/737-300-CHT/Systems/systems.xml</path>
+     <autopilot>
+	<path>Systems/fl2070_sound.xml</path>
+     </autopilot>
     </systems>
 
     <sound>
@@ -762,27 +765,7 @@
         </mod-ctrl>
       </key>
 
-      <key n="50">
-        <name>2</name>
-        <desc>Elevator up / increase autopilot altitude</desc>
-        <repeatable type="bool">true</repeatable>
-        <binding>
-          <command>nasal</command>
-          <script>
-            customkeys.Elevator(-0.05, 100)
-          </script>
-        </binding>
-        <mod-shift>
-          <desc>Look back</desc>
-          <binding>
-            <command>property-assign</command>
-            <property>/sim/current-view/goal-heading-offset-deg</property>
-            <property>/sim/view/config/back-direction-deg</property>
-          </binding>
-        </mod-shift>
-      </key>
-
-      <key n="359">
+           <key n="359">
         <name>Down</name>
         <desc>Elevator up or increase autopilot altitude</desc>
         <repeatable type="bool">true</repeatable>
@@ -1141,6 +1124,36 @@
         </mod-up>
       </key>
 
+<key n="50">
+  <name>2</name>
+  <desc>Decrease flaps.</desc>
+  <binding>
+   <command>nasal</command>
+   <script>controls.flapsDown(-1)</script>
+  </binding>
+  <mod-up>
+   <binding>
+    <command>nasal</command>
+    <script>controls.flapsDown(0)</script>
+   </binding>
+  </mod-up>
+ </key>
+
+ <key n="49">
+  <name>1</name>
+  <desc>Increase flaps.</desc>
+  <binding>
+   <command>nasal</command>
+   <script>controls.flapsDown(1)</script>
+  </binding>
+  <mod-up>
+   <binding>
+    <command>nasal</command>
+    <script>controls.flapsDown(0)</script>
+   </binding>
+  </mod-up>
+ </key>
+
       <key n="114">
         <name>R</name>
         <mod-alt>
@@ -1310,6 +1323,9 @@
         <category-14>  0 </category-14>
         <!-- AUDIO_OUTPUT_LEVEL -->
       </configuration-module>
+      <voice>		
+      <file-prefix type="string">Aircraft/737-300-CHT/Sounds/gpws/</file-prefix>	
+      </voice>
       <inputs>
         <!-- Module I/O -->
         <arinc429>

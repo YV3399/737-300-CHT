@@ -1,8 +1,11 @@
 <?xml version="1.0"?> 
 <PropertyList>   
   <name>lightcontrol</name>
-
   <layout>vbox</layout>   
+
+        <text>
+		<label>737-300 Light Controller</label>
+	</text>
 
   <group>
     <layout>table</layout>
@@ -215,7 +218,6 @@
 		    </binding>
 		    <live>true</live>
 		  </checkbox>
-
 		</group>
 	      </group>
 

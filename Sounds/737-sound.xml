@@ -1,225 +1,519 @@
 <?xml version="1.0"?>
 
+<!-- New Sounds By Gabriel Hernandez(YV3399) -->
+
 <PropertyList>
-
-  <fx>
-
-    <leftstartup>
-      <name>leftenginestart</name>
-      <path>/Aircraft/737-300-CHT/Sounds/engine-start.wav</path>
-      <mode>once</mode>
-      <condition>
-        <property>/controls/engines/engine[0]/starter</property>
-      </condition>
-      <volume>
-        <factor>0.75</factor>
-      </volume>
-    </leftstartup>
-
-    <rightstartup>
-      <name>rightenginestart</name>
-      <path>/Aircraft/737-300-CHT/Sounds/engine-start.wav</path>
-      <mode>once</mode>
-      <condition>
-        <property>/controls/engines/engine[1]/starter</property>
-      </condition>
-      <volume>
-        <factor>0.75</factor>
-      </volume>
-    </rightstartup>
-
-
-    <engine>
-      <name>leftengine</name>
-      <path>Sounds/jet.wav</path>
-      <mode>looped</mode>
-      <condition>
-        <property>/engines/engine[0]/running</property>
-      </condition>
-      <volume>
-        <property>/engines/engine[0]/thrust_lb</property>
-        <type>ln</type>
-        <factor>0.07</factor>
-        <offset>0.05</offset>
-      </volume>
-      <position>
-        <x>4.5</x>
-        <y>4.7</y>
-        <z>1.2</z>
-      </position>
-      <orientation>
-        <x> 0 </x>
-        <y> 1 </y>
-        <z> 0 </z>
-        <inner-angle>180</inner-angle>
-        <outer-angle>360</outer-angle>
-        <outer-gain>0.1</outer-gain>
-        <reference-dist>20</reference-dist>
-      </orientation>
-    </engine>
-
-    <engine>
-      <name>leftengine</name>
-      <path>/Aircraft/737-300-CHT/Sounds/thrust.wav</path>
-      <mode>looped</mode>
-      <condition>
-        <property>/engines/engine[0]/running</property>
-      </condition>
-      <volume>
-        <property>/engines/engine[0]/thrust_lb</property>
-        <type>ln</type>
-        <factor>0.35</factor>
-        <offset>0.05</offset>
-      </volume>
-      <position>
-        <x>7.35</x>
-        <y>4.7</y>
-        <z>1.2</z>
-      </position>
-      <orientation>
-        <x> 1 </x>
-        <y> 0 </y>
-        <z> 0 </z>
-        <inner-angle>90</inner-angle>
-        <outer-angle>180</outer-angle>
-        <outer-gain>0.75</outer-gain>
-        <reference-dist>20</reference-dist>
-      </orientation>
-    </engine>
-
-    <engine>
-      <name>rightengine</name>
-      <path>Sounds/jet.wav</path>
-      <mode>looped</mode>
-      <condition>
-        <property>/engines/engine[1]/running</property>     
-      </condition>
-      <volume>
-        <property>/engines/engine[1]/thrust_lb</property>
-        <type>ln</type>
-        <factor>0.07</factor>
-        <offset>0.05</offset>
-      </volume>
-      <position>
-        <x>4.5</x>
-        <y>-4.7</y>
-        <z>1.2</z>
-      </position>
-      <orientation>
-        <x> 0 </x>
-        <y> 1 </y>
-        <z> 0 </z>
-        <inner-angle>180</inner-angle>
-        <outer-angle>360</outer-angle>
-        <outer-gain>0.1</outer-gain>
-        <reference-dist>20</reference-dist>
-      </orientation>
-    </engine>
-
-    <engine>
-      <name>rightengine</name>
-      <path>/Aircraft/737-300-CHT/Sounds/thrust.wav</path>
-      <mode>looped</mode>
-      <condition>
-        <property>/engines/engine[1]/running</property>
-      </condition>
-      <volume>
-        <property>/engines/engine[1]/thrust_lb[0]</property>
-        <type>ln</type>
-        <factor>0.35</factor>
-        <offset>0.05</offset>
-      </volume>
-      <position>
-        <x>7.35</x>
-        <y>-4.7</y>
-        <z>1.2</z>
-      </position>
-      <orientation>
-        <x> 1 </x>
-        <y> 0 </y>
-        <z> 0 </z>
-        <inner-angle>90</inner-angle>
-        <outer-angle>180</outer-angle>
-        <outer-gain>0.75</outer-gain>
-        <reference-dist>20</reference-dist>
-      </orientation>
-    </engine>
-
-    <engine>
-      <name>leftwhine</name>
-      <path>Sounds/whine.wav</path>
-      <mode>looped</mode>
-      <condition>
-        <property>/engines/engine[0]/running</property>
-      </condition>
-      <volume>
-        <property>/engines/engine[0]/thrust_lb[0]</property>
-        <type>ln</type>
-        <factor>0.01</factor>
-        <offset>0.1</offset>
-      </volume>
-      <pitch>
-        <property>/engines/engine[0]/thrust_lb[0]</property>
-        <type>log</type>
-        <factor>0.10</factor>
-        <offset>0.10</offset>
-      </pitch>
-      <position>
-        <x>4.5</x>
-        <y>4.7</y>
-        <z>1.2</z>
-      </position>
-      <orientation>
-        <x> -1 </x>
-        <y> 0 </y>
-        <z> 0 </z>
-        <inner-angle>90</inner-angle>
-        <outer-angle>180</outer-angle>
-        <outer-gain>0.1</outer-gain>
-        <reference-dist>20</reference-dist>
-      </orientation>
-    </engine>
-
-    <engine>
-      <name>rightwhine</name>
-      <path>Sounds/whine.wav</path>
-      <mode>looped</mode>
-      <condition>
-        <property>/engines/engine[1]/running</property>     
-      </condition>
-      <volume>
-        <property>/engines/engine[1]/thrust_lb[0]</property>
-        <type>ln</type>
-        <factor>0.01</factor>
-        <offset>0.1</offset>
-      </volume> 
-      <pitch>
-        <property>/engines/engine[1]/thrust_lb[0]</property>
-        <type>log</type>
-        <factor>0.10</factor>
-        <offset>0.10</offset>
-      </pitch> 
-      <position>
-        <x>4.5</x>
-        <y>-4.7</y>
-        <z>1.2</z>
-      </position>
-      <orientation>
-        <x> -1 </x>
-        <y> 0 </y>
-        <z> 0 </z>
-        <inner-angle>90</inner-angle>
-        <outer-angle>180</outer-angle>
-        <outer-gain>0.1</outer-gain>
-        <reference-dist>20</reference-dist>
-      </orientation>
-    </engine>
-
-
-    <rumble>
+	<fx>
+		
+	<engine>
+		<name>a320_a1s</name>
+		<mode>looped</mode>
+		<path>FL2070/abn1strt.wav</path>
+		<volume>
+			<property>fl2070/sound/a1strt</property>
+			<offset>0</offset>
+		</volume>
+		<pitch>
+			<property>fl2070/sound/a1strtp</property>
+			<offset>0</offset>
+		</pitch>
+		<position>
+			<x>00</x>
+			<y>20</y>
+			<z>00</z>
+		</position>
+	</engine>
+	
+	<engine>
+		<name>a320_b1s</name>
+		<mode>looped</mode>
+		<path>FL2070/abn1strt.wav</path>
+		<volume>
+			<property>fl2070/sound/b1strt</property>
+			<offset>0</offset>
+		</volume>
+		<pitch>
+			<property>fl2070/sound/b1strtp</property>
+			<offset>0</offset>
+		</pitch>
+		<position>
+			<x>0.0</x>
+			<y>-20</y>
+			<z>0.0</z>
+		</position>
+	</engine>
+	
+	
+	
+	
+	
+	
+	<engine>
+		<name>a320_a11</name>
+		<mode>looped</mode>
+		<path>FL2070/cfm11a.wav</path>
+		<condition>
+			<property>sim/current-view/internal</property>
+			<less-than>
+				<property>sim/current-view/z-offset-m</property>
+				<value>-2</value>
+			</less-than>
+		</condition>
+		<volume>
+			<property>fl2070/sound/a11</property>
+			<offset>0</offset>
+		</volume>
+		<pitch>
+			<property>fl2070/sound/a11p</property>
+			<offset>0</offset>
+		</pitch>
+		<position>
+			<x>00</x>
+			<y>20</y>
+			<z>00</z>
+		</position>
+	</engine>
+	
+	<engine>
+		<name>a320_a12</name>
+		<mode>looped</mode>
+		<path>FL2070/cfm12a.wav</path>
+		<condition>
+			<property>sim/current-view/internal</property>
+			<less-than>
+				<property>sim/current-view/z-offset-m</property>
+				<value>-2</value>
+			</less-than>
+		</condition>
+		<volume>
+			<property>fl2070/sound/a12</property>
+			<offset>0</offset>
+		</volume>
+		<pitch>
+			<property>fl2070/sound/a12p</property>
+			<offset>0</offset>
+		</pitch>
+		<position>
+			<x>00</x>
+			<y>20</y>
+			<z>00</z>
+		</position>
+	</engine>
+	
+	<engine>
+		<name>a320_a13</name>
+		<mode>looped</mode>
+		<path>FL2070/cfm13a.wav</path>
+		<condition>
+			<property>sim/current-view/internal</property>
+			<less-than>
+				<property>sim/current-view/z-offset-m</property>
+				<value>-2</value>
+			</less-than>
+		</condition>
+		<volume>
+			<property>fl2070/sound/a13</property>
+			<offset>0</offset>
+		</volume>
+		<pitch>
+			<property>fl2070/sound/a13p</property>
+			<offset>0</offset>
+		</pitch>
+		<position>
+			<x>00</x>
+			<y>20</y>
+			<z>00</z>
+		</position>
+	</engine>
+	
+	<engine>
+		<name>a320_b11</name>
+		<mode>looped</mode>
+		<path>FL2070/cfm11b.wav</path>
+		<condition>
+			<property>sim/current-view/internal</property>
+			<less-than>
+				<property>sim/current-view/z-offset-m</property>
+				<value>-2</value>
+			</less-than>
+		</condition>
+		<volume>
+			<property>fl2070/sound/b11</property>
+			<offset>0</offset>
+		</volume>
+		<pitch>
+			<property>fl2070/sound/b11p</property>
+			<offset>0</offset>
+		</pitch>
+		<position>
+			<x>0.0</x>
+			<y>-20</y>
+			<z>0.0</z>
+		</position>
+	</engine>
+	
+	<engine>
+		<name>a320_b12</name>
+		<mode>looped</mode>
+		<path>FL2070/cfm12b.wav</path>
+		<condition>
+			<property>sim/current-view/internal</property>
+			<less-than>
+				<property>sim/current-view/z-offset-m</property>
+				<value>-2</value>
+			</less-than>
+		</condition>
+		<volume>
+			<property>fl2070/sound/b12</property>
+			<offset>0</offset>
+		</volume>
+		<pitch>
+			<property>fl2070/sound/b12p</property>
+			<offset>0</offset>
+		</pitch>
+		<position>
+			<x>0.0</x>
+			<y>-20</y>
+			<z>0.0</z>
+		</position>
+	</engine>
+	
+	<engine>
+		<name>a320_b13</name>
+		<mode>looped</mode>
+		<path>FL2070/cfm13b.wav</path>
+		<condition>
+			<property>sim/current-view/internal</property>
+			<less-than>
+				<property>sim/current-view/z-offset-m</property>
+				<value>-2</value>
+			</less-than>
+		</condition>
+		<volume>
+			<property>fl2070/sound/b13</property>
+			<offset>0</offset>
+		</volume>
+		<pitch>
+			<property>fl2070/sound/b13p</property>
+			<offset>0</offset>
+		</pitch>
+		<position>
+			<x>0.0</x>
+			<y>-20</y>
+			<z>0.0</z>
+		</position>
+	</engine>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<engine>
+		<name>a320_a21</name>
+		<mode>looped</mode>
+		<path>FL2070/axx21.wav</path>
+		<condition>
+			<property>sim/current-view/internal</property>
+			<greater-than>
+				<property>sim/current-view/z-offset-m</property>
+				<value>-1.9</value>
+			</greater-than>
+		</condition>
+		<volume>
+			<property>fl2070/sound/a11</property>
+			<offset>0</offset>
+		</volume>
+		<pitch>
+			<property>fl2070/sound/a11p</property>
+			<offset>0</offset>
+		</pitch>
+		<position>
+			<x>00</x>
+			<y>20</y>
+			<z>00</z>
+		</position>
+	</engine>
+	
+	<engine>
+		<name>a320_a22</name>
+		<mode>looped</mode>
+		<path>FL2070/axx22.wav</path>
+		<condition>
+			<property>sim/current-view/internal</property>
+			<greater-than>
+				<property>sim/current-view/z-offset-m</property>
+				<value>-1.9</value>
+			</greater-than>
+		</condition>
+		<volume>
+			<property>fl2070/sound/a12</property>
+			<offset>0</offset>
+		</volume>
+		<pitch>
+			<property>fl2070/sound/a12p</property>
+			<offset>0</offset>
+		</pitch>
+		<position>
+			<x>00</x>
+			<y>20</y>
+			<z>00</z>
+		</position>
+	</engine>
+	
+	<engine>
+		<name>a320_a23</name>
+		<mode>looped</mode>
+		<path>FL2070/axx23.wav</path>
+		<condition>
+			<property>sim/current-view/internal</property>
+			<greater-than>
+				<property>sim/current-view/z-offset-m</property>
+				<value>-1.9</value>
+			</greater-than>
+		</condition>
+		<volume>
+			<property>fl2070/sound/a13</property>
+			<offset>0</offset>
+		</volume>
+		<pitch>
+			<property>fl2070/sound/a13p</property>
+			<offset>0</offset>
+		</pitch>
+		<position>
+			<x>00</x>
+			<y>20</y>
+			<z>00</z>
+		</position>
+	</engine>
+	
+	
+	<engine>
+		<name>a320_b21</name>
+		<property>sim/current-view/internal</property>
+		<mode>looped</mode>
+		<path>FL2070/axx21.wav</path>
+		<condition>
+			<property>sim/current-view/internal</property>
+			<greater-than>
+				<property>sim/current-view/z-offset-m</property>
+				<value>-1.9</value>
+			</greater-than>
+		</condition>
+		<volume>
+			<property>fl2070/sound/b11</property>
+			<offset>0</offset>
+		</volume>
+		<pitch>
+			<property>fl2070/sound/b11p</property>
+			<offset>0</offset>
+		</pitch>
+		<position>
+			<x>0.0</x>
+			<y>-20</y>
+			<z>0.0</z>
+		</position>
+	</engine>
+	
+	<engine>
+		<name>a320_b22</name>
+		<mode>looped</mode>
+		<path>FL2070/axx22.wav</path>
+		<condition>
+			<property>sim/current-view/internal</property>
+			<greater-than>
+				<property>sim/current-view/z-offset-m</property>
+				<value>-1.9</value>
+			</greater-than>
+		</condition>
+		<volume>
+			<property>fl2070/sound/b12</property>
+			<offset>0</offset>
+		</volume>
+		<pitch>
+			<property>fl2070/sound/b12p</property>
+			<offset>0</offset>
+		</pitch>
+		<position>
+			<x>0.0</x>
+			<y>-20</y>
+			<z>0.0</z>
+		</position>
+	</engine>
+	
+	<engine>
+		<name>a320_b23</name>
+		<mode>looped</mode>
+		<path>FL2070/axx23.wav</path>
+		<condition>
+			<property>sim/current-view/internal</property>
+			<greater-than>
+				<property>sim/current-view/z-offset-m</property>
+				<value>-1.9</value>
+			</greater-than>
+		</condition>
+		<volume>
+			<property>fl2070/sound/b13</property>
+			<offset>0</offset>
+		</volume>
+		<pitch>
+			<property>fl2070/sound/b13p</property>
+			<offset>0</offset>
+		</pitch>
+		<position>
+			<x>0.0</x>
+			<y>-20</y>
+			<z>0.0</z>
+		</position>
+	</engine>
+	
+	
+	
+	
+	
+	
+	
+	<engine>
+		<name>xa320_a11</name>
+		<mode>looped</mode>
+		<path>FL2070/xabn11.wav</path>
+		<condition>
+			<not><property>sim/current-view/internal</property></not>
+		</condition>
+		<volume>
+			<property>fl2070/sound/a11</property>
+			<offset>0</offset>
+		</volume>
+		<pitch>
+			<property>fl2070/sound/a11p</property>
+			<offset>0</offset>
+		</pitch>
+		<position>
+			<x>00</x>
+			<y>20</y>
+			<z>00</z>
+		</position>
+	</engine>
+	
+	<engine>
+		<name>xa320_a12</name>
+		<condition>
+			<not><property>sim/current-view/internal</property></not>
+		</condition>
+		<mode>looped</mode>
+		<path>FL2070/xabn12.wav</path>
+		<volume>
+			<property>fl2070/sound/a12</property>
+			<offset>0</offset>
+		</volume>
+		<pitch>
+			<property>fl2070/sound/a12p</property>
+			<offset>0</offset>
+		</pitch>
+		<position>
+			<x>00</x>
+			<y>20</y>
+			<z>00</z>
+		</position>
+	</engine>
+	
+	<engine>
+		<name>xa320_a13</name>
+		<condition>
+			<not><property>sim/current-view/internal</property></not>
+		</condition>
+		<mode>looped</mode>
+		<path>FL2070/xabn13.wav</path>
+		<volume>
+			<property>fl2070/sound/a13</property>
+			<offset>0</offset>
+		</volume>
+		<pitch>
+			<property>fl2070/sound/a13p</property>
+			<offset>0</offset>
+		</pitch>
+		<position>
+			<x>00</x>
+			<y>20</y>
+			<z>00</z>
+		</position>
+	</engine>
+	
+	
+	<engine>
+		<name>xa320_b11</name>
+		<condition>
+			<not><property>sim/current-view/internal</property></not>
+		</condition>
+		<mode>looped</mode>
+		<path>FL2070/xabn11.wav</path>
+		<volume>
+			<property>fl2070/sound/b11</property>
+			<offset>0</offset>
+		</volume>
+		<pitch>
+			<property>fl2070/sound/b11p</property>
+			<offset>0</offset>
+		</pitch>
+		<position>
+			<x>0.0</x>
+			<y>-20</y>
+			<z>0.0</z>
+		</position>
+	</engine>
+	
+	<engine>
+		<name>xa320_b12</name>
+		<condition>
+			<not><property>sim/current-view/internal</property></not>
+		</condition>
+		<mode>looped</mode>
+		<path>FL2070/xabn12.wav</path>
+		<volume>
+			<property>fl2070/sound/b12</property>
+			<offset>0</offset>
+		</volume>
+		<pitch>
+			<property>fl2070/sound/b12p</property>
+			<offset>0</offset>
+		</pitch>
+		<position>
+			<x>0.0</x>
+			<y>-20</y>
+			<z>0.0</z>
+		</position>
+	</engine>
+	
+	<engine>
+		<name>xa320_b13</name>
+		<condition>
+			<not><property>sim/current-view/internal</property></not>
+		</condition>
+		<mode>looped</mode>
+		<path>FL2070/xabn13.wav</path>
+		<volume>
+			<property>fl2070/sound/b13</property>
+			<offset>0</offset>
+		</volume>
+		<pitch>
+			<property>fl2070/sound/b13p</property>
+			<offset>0</offset>
+		</pitch>
+		<position>
+			<x>0.0</x>
+			<y>-20</y>
+			<z>0.0</z>
+		</position>
+	</engine>
+		
+		 <rumble>
       <name>rumble</name>
       <mode>looped</mode>
-      <path>Aircraft/737-300-CHT/Sounds/roll.wav</path>
+      <path>Aircraft/737-300-CHT/Sounds/rumble.wav</path>
       <condition>
         <and>
           <greater-than>
@@ -239,11 +533,22 @@
         <factor>0.6</factor>
       </volume>
     </rumble>
+		
+		 <flap>
+      <name>flaps</name>
+      <mode>in-transit</mode>
+      <path>/Aircraft/737-300-CHT/Sounds/flaps.wav</path>
+      <property>/surface-positions/flap-pos-norm</property>
+      <volume>
+        <factor>0.45</factor>
+      </volume>
+    </flap>
 
-    <gear>
+
+		<gear>
       <name>gear</name>
       <mode>in-transit</mode>
-      <path>Sounds/gear.wav</path>
+      <path>Aircraft/737-300-CHT/Sounds/gear.wav</path>
       <property>/gear/gear[0]/position-norm</property>
       <pitch>
         <internal>dt_play</internal>
@@ -251,17 +556,234 @@
         <factor>-0.001</factor>
       </pitch>
     </gear>
-
-    <gear>
-      <name>gear-lock</name>
-      <path>Sounds/gear-lck.wav</path>
+		
+		<overspeed>
+			<name>Overspeed warning</name>
+			<path>Aircraft/737-300-CHT/Sounds/overspeed.wav</path>
+			<mode>looped</mode>
+			<condition>
+				<greater-than>
+					<property>velocities/airspeed-kt</property>
+					<value>345</value>
+				</greater-than>
+			</condition>
+			<volume>
+				<factor>1.0</factor>
+			</volume>
+		</overspeed>
+		
+   <fire-bell>
+      <name>Fire Warning Bell</name>
+      <mode>looped</mode>
+      <path>Aircraft/737-300-CHT/Sounds/fire-warn.wav</path>
       <condition>
-        <equals>
-          <property>/gear/gear[0]/position-norm</property>
-          <value>0</value>
-        </equals>
+        <property>/instrumentation/indicators/firewarn</property>
       </condition>
-    </gear>
+      <volume>
+        <factor>1</factor>
+      </volume>
+    </fire-bell>
+
+		<!-- Altitude alert sound -->
+
+		<altAlert>
+			<name>altAlert</name>
+			<mode>once</mode>
+			<path>Aircraft/737-300-CHT/Sounds/altAlert.wav</path>
+			<property>/b737/warnings/altitude-alert</property>
+			<volume>
+				<factor>1.0</factor>
+			</volume>
+		</altAlert>
+
+		 <ap-off>
+      <name>Auto Pilot Disengage</name>
+      <mode>once</mode>
+      <path>Aircraft/737-300-CHT/Sounds/apdis.wav</path>
+      <condition>
+        <property>/autopilot/internal/apdis-warn</property>
+      </condition>
+      <volume>
+        <factor>1</factor>
+      </volume>
+    </ap-off>
+
+		<!-- trimwheel sound -->
+
+		<trimming>
+			<name>trimming</name>
+			<mode>once</mode>
+			<path>Aircraft/737-300-CHT/Sounds/trim.wav</path>
+			<condition>
+				<property>/b737/sound/stab-trim</property>
+			</condition>
+			<volume>
+				<factor>1</factor>
+			</volume>
+		</trimming>
+		
+		 <stall>
+      <name>stall</name>
+      <mode>looped</mode>
+      <path>Aircraft/737-300-CHT/Sounds/stall.wav</path>
+      <condition>
+        <and>
+          <greater-than>
+            <property>/fdm/jsbsim/aero/alpha-deg</property>
+            <value>12.0</value>
+          </greater-than>
+          <greater-than>
+            <property>/velocities/airspeed-kt</property>
+            <value>20</value>
+          </greater-than>
+        </and>
+      </condition>
+      <volume>
+        <factor>1</factor>
+      </volume>
+    </stall>
+		
+		<!-- Ground Services-->
+
+		<fuelpump>
+			<name>fuel truck pump transfer</name>
+			<path>/Aircraft/737-300-CHT/Sounds/electricalengine.wav</path>
+			<mode>looped</mode>
+			<condition>
+				<less-than>	
+					<property>/velocities/groundspeed-kt</property>
+					<value>1</value>
+				</less-than>
+			</condition>
+			<volume>
+				<property>/services/fuel-truck/transfer</property>
+				<value>1</value>
+			</volume>
+        <!--volume>
+            <property>sim/sound/Ovolume</property>
+        </volume-->
+        <position>
+        	<x-m>0.25</x-m>
+        	<y-m>-1.0</y-m>
+        	<z-m>1.0</z-m>
+        </position>
+        <reference-dist>60.0</reference-dist>
+        <max-dist>50.0</max-dist>
+    </fuelpump>
+
+    <fueltruck>
+    	<name>fuel truck pump clean</name>
+    	<path>/Aircraft/737-300-CHT/Sounds/electricalengine.wav</path>
+    	<mode>looped</mode>
+    	<condition>
+    		<less-than>	
+    			<property>/velocities/groundspeed-kt</property>
+    			<value>1</value>
+    		</less-than>
+    	</condition>
+    	<volume>
+    		<property>/services/fuel-truck/clean</property>
+    		<value>1</value>
+    	</volume>
+        <!--volume>
+            <property>sim/sound/Ovolume</property>
+        </volume-->
+        <position>
+        	<x-m>0.25</x-m>
+        	<y-m>-1.0</y-m>
+        	<z-m>1.0</z-m>
+        </position>
+        <reference-dist>60.0</reference-dist>
+        <max-dist>50.0</max-dist>
+    </fueltruck>
+
+    <deice>
+    	<name>de ice truck operation</name>
+    	<path>/Aircraft/737-300-CHT/Sounds/electricalengine.wav</path>
+    	<mode>looped</mode>
+    	<condition>
+    		<less-than>	
+    			<property>/velocities/groundspeed-kt</property>
+    			<value>1</value>
+    		</less-than>
+    	</condition>
+    	<volume>
+    		<property>/services/deicing_truck/de-ice</property>
+    		<value>1</value>
+    	</volume>
+        <!--volume>
+            <property>sim/sound/Ovolume</property>
+        </volume-->
+        <position>
+        	<x-m>-15</x-m>
+        	<y-m>9.5</y-m>
+        	<z-m>-3.45</z-m>
+        </position>
+        <reference-dist>60.0</reference-dist>
+        <max-dist>50.0</max-dist>
+    </deice>
+
+    <seatbelt>
+    	<name>cabinalert</name>
+    	<path>Aircraft/737-300-CHT/Sounds/cabinalert.wav</path>
+    	<mode>once</mode>
+    	<condition>
+    		<or>
+    			<property>sim/sound/no-smoking-sign</property>
+    			<property>sim/sound/seatbelt-sign</property>
+    			
+    			<not><property>sim/sound/no-smoking-sign</property></not>
+    			<not><property>sim/sound/seatbelt-sign</property></not>
+    		</or>
+    	</condition>
+    	<volume>
+    		<property>sim/current-view/internal</property>
+    	</volume>
+    </seatbelt>
+    
+<!-- GPWS -->
+
+   <alt2500>
+        <name>alt2500</name>
+        <mode>once</mode>
+        <type>avionics</type>		
+        <path>Aircraft/737-300-CHT/Sounds/-2500.wav</path>
+        <condition>
+			<less-than>
+				<property>/position/altitude-agl-ft</property>
+				<value>2520</value>
+			</less-than>
+			<greater-than>
+				<property>/position/altitude-agl-ft</property>
+				<value>2480</value>
+			</greater-than>	
+			<less-than>
+				<property>/velocities/vertical-speed-fps</property>
+				<value>0</value>
+			</less-than>
+		</condition>
+    	</alt2500>
+
+    <gpws>
+    	<name>appr_mins</name>
+    	<mode>once</mode>
+    	<type>avionics</type>		
+    	<path>Aircraft/737-300-CHT/Sounds/approaching-minimums.wav</path>
+    	<condition>
+    		<less-than>
+    			<property>/position/altitude-agl-ft</property>
+    			<value>380</value>
+    		</less-than>
+    		<greater-than>
+    			<property>/position/altitude-agl-ft</property>
+    			<value>300</value>
+    		</greater-than>			
+    		<less-than>
+    			<property>/velocities/vertical-speed-fps</property>
+    			<value>0</value>
+    		</less-than>
+    	</condition>
+    </gpws>
 
     <leftgear>
       <name>Left Main</name>
@@ -334,104 +856,36 @@
         <offset>-0.85</offset>
       </volume>
     </nosegear>
+
+    <rain>
+    	<name>rain</name>
+    	<mode>looped</mode>
+    	<path>Aircraft/737-300-CHT/Sounds/rain.wav</path>
+    	<condition>
+    		<greater-than>
+    			<property>/environment/rain-norm</property>
+    			<value>0.2</value>
+    		</greater-than>
+    	</condition>
+    	<volume>
+    		<property>/environment/rain-norm</property>
+    		<factor>1.00</factor>
+    		<offset>0.00</offset>
+    		<min>0.4</min>
+    		<max>0.9</max>
+    	</volume>
+    	<pitch>
+    		<property>/velocities/airspeed-kt</property>
+    		<factor>0.001</factor>
+    		<offset>1.0</offset>
+    	</pitch>
+    </rain>
+
     
-    <flap>
-      <name>flaps</name>
-      <mode>in-transit</mode>
-      <path>Sounds/flaps.wav</path>
-      <property>/surface-positions/flap-pos-norm</property>
-      <volume>
-        <factor>0.45</factor>
-      </volume>
-    </flap>
-
-    <wind>
-      <name>wind</name>
-      <mode>looped</mode>
-      <path>Sounds/wind-8khz.wav</path>
-      <property>/velocities/airspeed-kt</property>
-      <volume>
-        <property>/position/altitude-ft</property>
-        <factor>-0.000010</factor>
-        <offset>1.0</offset>
-        <min>0.1</min>
-        <max>1.0</max>
-      </volume>
-      <volume>
-        <property>/velocities/airspeed-kt</property>
-        <factor>0.0010</factor>
-        <min>0.03</min>
-        <max>0.25</max>
-      </volume>
-      <pitch>
-        <property>/velocities/airspeed-kt</property>
-        <factor>0.01</factor>
-        <offset>1.25</offset>
-      </pitch>
-    </wind>
-
-    <stall>
-      <name>stall</name>
-      <mode>looped</mode>
-      <path>Aircraft/737-300-CHT/Sounds/stall.wav</path>
-      <condition>
-        <and>
-          <greater-than>
-            <property>/fdm/jsbsim/aero/alpha-deg</property>
-            <value>12.0</value>
-          </greater-than>
-          <greater-than>
-            <property>/velocities/airspeed-kt</property>
-            <value>20</value>
-          </greater-than>
-        </and>
-      </condition>
-      <volume>
-        <factor>1</factor>
-      </volume>
-    </stall>
-
-    <overspeed>
-      <name>overspeed</name>
-      <mode>looped</mode>
-      <path>Aircraft/737-300-CHT/Sounds/overspeed.wav</path>
-      <condition>
-        <or>
-          <greater-than>
-            <property>/velocities/airspeed-kt</property>
-            <value>350</value>
-          </greater-than>
-          <greater-than>
-            <property>/velocities/airspeed-mach</property>
-            <value>.82</value>
-          </greater-than>
-        </or>
-      </condition>
-      <volume>
-        <factor>1</factor>
-      </volume>
-    </overspeed>
-
-    <overalt>
-      <name>overalt</name>
-      <mode>looped</mode>
-      <path>Aircraft/737-300-CHT/Sounds/overspeed.wav</path>
-      <condition>
-        <greater-than>
-          <property>/instrumentation/altimeter/indicated-altitude-ft</property>
-          <value>37009</value>
-        </greater-than>
-      </condition>
-      <volume>
-        <factor>1</factor>
-      </volume>
-    </overalt>
-
-
-    <seatbelt-on>
+     <seatbelt-on>
       <name>seatbelt-sign-on</name>
       <mode>once</mode>
-      <path>Aircraft/737-300-CHT/Sounds/seatbelt.wav</path>
+      <path>Aircraft/737-300-CHT/Sounds/cabincall.wav</path>
       <condition>
         <and>
           <property>systems/electrical/on</property>
@@ -442,34 +896,11 @@
         <factor>1</factor>
       </volume>
     </seatbelt-on>
-
-<!--    <seatbelt-off>
-      <name>seatbelt-sign-off</name>
-      <mode>once</mode>
-      <path>Aircraft/737-300-CHT/Sounds/seatbelt.wav</path>
-      <condition>
-  <and>
-    <or>
-      <property>controls/electric/battery-switch</property>
-      <property>controls/electric/external-power</property>
-      <property>controls/electric/apugen1</property>
-      <property>controls/electric/apugen2</property>
-      <property>engines/engine[0]/running</property>
-    </or>
-    <not>
-      <property>/controls/switches/seatbelt-sign</property>
-    </not>
-  </and>
-      </condition>
-      <volume>
-  <factor>1</factor>
-      </volume>
-    </seatbelt-off> -->
-
+    
     <nosmoke-on>
       <name>nosmoking-sign-on</name>
       <mode>once</mode>
-      <path>Aircraft/737-300-CHT/Sounds/seatbelt.wav</path>
+      <path>Aircraft/737-300-CHT/Sounds/cabincall.wav</path>
       <condition>
         <and>
           <property>systems/electrical/on</property>
@@ -481,52 +912,127 @@
       </volume>
     </nosmoke-on>
 
-<!--    <nosmoke-off>
-      <name>nosmoking-sign-off</name>
-      <mode>once</mode>
-      <path>Aircraft/737-300-CHT/Sounds/seatbelt.wav</path>
-      <condition>
-  <and>
-    <or>
-      <property>controls/electric/battery-switch</property>
-      <property>controls/electric/external-power</property>
-      <property>controls/electric/apugen1</property>
-      <property>controls/electric/apugen2</property>
-      <property>engines/engine[0]/running</property>
-    </or>
-    <not>
-      <property>/controls/switches/nosmoking-sign</property>
-    </not>
-  </and>
-      </condition>
-      <volume>
-  <factor>1</factor>
-      </volume>
-    </nosmoke-off> -->
 
-    <ap-off>
-      <name>Auto Pilot Disengage</name>
-      <mode>once</mode>
-      <path>Aircraft/737-300-CHT/Sounds/apdis.wav</path>
-      <condition>
-        <property>/autopilot/internal/apdis-warn</property>
-      </condition>
-      <volume>
-        <factor>1</factor>
-      </volume>
-    </ap-off>
 
-    <fire-bell>
-      <name>Fire Warning Bell</name>
-      <mode>looped</mode>
-      <path>Aircraft/737-300-CHT/Sounds/fire-warn.wav</path>
-      <condition>
-        <property>/instrumentation/indicators/firewarn</property>
-      </condition>
-      <volume>
-        <factor>1</factor>
-      </volume>
-    </fire-bell>
+    <avionics>
+    	<name>avionics</name>
+    	<path>Aircraft/737-300-CHT/Sounds/avionics.wav</path>
+    	<mode>looped</mode>
+    	<condition>
+    		<property>sim/current-view/internal</property>
+    		<greater-than>
+    			<property>systems/electrical/outputs/efis</property>
+    			<value>0</value>
+    		</greater-than>
+    	</condition>
+    	<position>
+    		<x>-17</x>
+    		<y>0.01</y>
+    		<z>-1.95</z>
+    	</position>	
+    	<volume>
+    		<factor>0.2</factor>
+    		<max>0.5</max>
+    	</volume>
+    	<reference-dist>1.2</reference-dist>
+    	<max-dist>5</max-dist>
+    </avionics>
 
-  </fx>
+    <switch>
+    	<name>click on</name>
+    	<mode>once</mode>
+    	<path>Aircraft/737-300-CHT/Sounds/click.wav</path>
+    	<condition>
+    		<property>/controls/switches/switch</property>
+    	</condition>
+    	<volume>
+    		<factor>0.45</factor>
+    	</volume>
+    </switch>
+
+    <cockpitdoor>
+    	<name>open_close</name>
+    	<mode>once</mode>
+    	<path>Aircraft/737-300-CHT/Sounds/door_close.wav</path>
+    	<condition>
+    		<property>/controls/doors/cockpitdoor/sound</property>
+    	</condition>
+    	<volume>
+    		<factor>0.8</factor>
+    	</volume>
+    	<max-dist>20.0</max-dist>
+    </cockpitdoor>
+        
+        <!-- Crashed -->
+
+        <crash>
+        	<name>intense ground contact</name>
+        	<mode>once</mode>
+        	<path>Aircraft/737-300-CHT/Sounds/crash.wav</path>
+        	<property>sim/crashed</property>
+        	<volume>
+        		<factor>1</factor>
+        	</volume>
+        	<pitch>
+        		<factor>1.5</factor>
+        	</pitch>
+        </crash>
+
+<eightyknots>
+        <name>eightyknots</name>
+        <mode>once</mode>
+        <type>avionics</type>
+        <path>Aircraft/737-300-CHT/Sounds/80kt.wav</path>
+        <condition>
+			<or>
+			<property>/gear/gear[0]/wow</property>
+			<property>/gear/gear[2]/wow</property>
+			</or>	
+			<greater-than>
+				<property>/velocities/airspeed-kt</property>
+				<value>80</value>
+			</greater-than>
+			<less-than>
+				<property>/velocities/airspeed-kt</property>
+				<value>88</value>
+			</less-than>			
+			</condition>	
+    </eightyknots>   
+
+
+   <wind>
+        <name>wind</name>
+        <mode>looped</mode>
+        <path>Aircraft/737-300-CHT/Sounds/Wind.wav</path>
+        <property>/velocities/airspeed-kt</property>
+        <volume>
+            <property>/position/altitude-ft</property>
+            <factor>-0.000015</factor>
+            <offset>1.0</offset>
+            <min>0.1</min>
+            <max>1.0</max>
+        </volume>
+        <volume>
+            <property>/velocities/airspeed-kt</property>
+            <factor>0.0015</factor>
+            <min>0.03</min>
+            <max>0.25</max>
+        </volume>
+        <pitch>
+            <property>/velocities/airspeed-kt</property>
+            <factor>0.01</factor>
+            <offset>1.25</offset>
+        </pitch>
+        <position>
+            <x>-24</x>
+            <y>0</y>
+            <z>0.86</z>
+        </position>
+        <reference-dist>1.0</reference-dist>
+        <max-dist>2.0</max-dist>
+    </wind>
+
+    </fx>
+    
 </PropertyList>
+

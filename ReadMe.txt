@@ -7,11 +7,3 @@ This variant of the Boeing 737-300 has been in development by Gabriel Hernandez(
 
 <b>Currently Maintained By :</b>
 - Gabriel Hernandez(YV3399)       
-
-<b>Original Authors :</b>
-- Heiko Schulz <Heiko.H.Schulz@gmx.net>
-- Innis Cunningham
-- Ispana FlightGear Team
-- Emmanuel Barranger
-- chtadmin
-
