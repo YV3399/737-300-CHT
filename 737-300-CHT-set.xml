@@ -1,7 +1,7 @@
 <PropertyList>
   <sim>
     <description type="string">Boeing 737-300</description>
-    <author type="string">e-pilot variant - Original by David Culp (FDM), Innis Cunningham(3d), Heiko Schulz (3D and Panel), Emmanuel Baranger(3d)</author>
+    <author type="string">Gabriel Hernandez-YV3399(Current developer 2017)</author>
     <status type="string">Heavy Development</status>
     <rating>
       <FDM type="int">4</FDM>

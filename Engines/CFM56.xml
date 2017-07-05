@@ -1,24 +1,21 @@
 <?xml version="1.0"?>
 <!--
-  File:     CFM56.xml
-  Author:   e-pilot
-	
-	CFM56-3C-1
-	
+  File:     CFM56_5.xml
+  Author:   Gabriel Hernandez(YV3399) v 1.2
+
   Inputs:
     name:           CFM56
     type:           turbine
-    thrust:         23500 lb
+    thrust:         20000 lb
     augmented?      no
     injected?       no
 -->
 
 <turbine_engine name="CFM56">
-  <milthrust> 23500.0 </milthrust>
-	<maxthrust> 23500.0 </maxthrust>
-  <bypassratio>     1.0 </bypassratio>
+  <milthrust> 20000.0 </milthrust>
+  <bypassratio>     5.9 </bypassratio>
   <tsfc>            0.657 </tsfc>
-  <bleed>           0.03 </bleed>
+  <bleed>           0.04 </bleed>
   <idlen1>         30.0 </idlen1>
   <idlen2>         60.0 </idlen2>
   <maxn1>         100.0 </maxn1>
@@ -54,8 +51,7 @@
      0.6   1.1810  0.9510  0.7210  0.5320  0.3780  0.2480  0.1540
      0.8   1.2580  1.0200  0.7820  0.5820  0.4170  0.2750  0.1700
      1.0   1.3690  1.1200  0.8710  0.6510  0.4750  0.3150  0.1950
-     1.2   1.4850  1.2300  0.9750  0.7440  0.5450  0.3640  0.2250
-	   1.4   1.5941  1.3400  1.0860  0.8450  0.6280  0.4240  0.2630
+     1.2   0.0000  0.0000  0.0000  0.0000  0.0000  0.0000  0.0000
     </tableData>
    </table>
   </function>

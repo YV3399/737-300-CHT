@@ -8,17 +8,6 @@ This file selects the instrumentation modules that should be available.
 
 <PropertyList>
 
-<!-- Uncomment the below section if you are on fg 3.0 or above -->
-<!--  <comm-radio>
-    <name>comm</name>
-    <number>0</number>>
-  </comm-radio>
-
-  <comm-radio>
-    <name>comm</name>
-    <number>1</number>
-  </comm-radio> -->
-
   <adf>
     <name>adf</name>
     <number>0</number>>
@@ -29,21 +18,50 @@ This file selects the instrumentation modules that should be available.
     <number>1</number>
   </adf>
 
-  <airspeed-indicator>
-    <name>airspeed-indicator</name>
-    <number>0</number>
-    <total-pressure>/systems/pitot/total-pressure-inhg</total-pressure>
-    <static-pressure>/systems/static/pressure-inhg</static-pressure>
-  </airspeed-indicator>
+     <airspeed-indicator>
+        <name>airspeed-indicator</name>
+        <number>0</number>
+        <total-pressure>/systems/pitot[0]/total-pressure-inhg</total-pressure>
+        <static-pressure>/systems/static[0]/pressure-inhg</static-pressure>
+    </airspeed-indicator>
 
-  <altimeter>
-    <name>altimeter</name>
-    <number>0</number>
-    <static-pressure>/systems/static/pressure-inhg</static-pressure>
-    <quantum>10</quantum>
-    <tau>0.1</tau>
-    <encode-mode-c type="bool">true</encode-mode-c>
-  </altimeter>
+    <airspeed-indicator>
+        <name>airspeed-indicator</name>
+        <number>1</number>
+        <total-pressure>/systems/pitot[1]/total-pressure-inhg</total-pressure>
+        <static-pressure>/systems/static[1]/pressure-inhg</static-pressure>
+    </airspeed-indicator>
+
+    <airspeed-indicator>
+        <name>airspeed-indicator</name>
+        <number>2</number>
+        <total-pressure>/systems/pitot[2]/total-pressure-inhg</total-pressure>
+        <static-pressure>/systems/static[2]/pressure-inhg</static-pressure>
+    </airspeed-indicator>
+
+   <altimeter>
+        <name>altimeter</name>
+        <number>0</number>
+        <static-pressure>/systems/static[0]/pressure-inhg</static-pressure>
+        <quantum>0</quantum>
+        <tau>0.1</tau>
+   </altimeter>
+
+    <altimeter>
+        <name>altimeter</name>
+        <number>1</number>
+        <static-pressure>/systems/static[1]/pressure-inhg</static-pressure>
+        <quantum>0</quantum>
+        <tau>0.1</tau>
+   </altimeter>
+
+    <altimeter>
+        <name>altimeter</name>
+        <number>2</number>
+        <static-pressure>/systems/static[2]/pressure-inhg</static-pressure>
+        <quantum>0</quantum>
+        <tau>0.1</tau>
+   </altimeter>
 
   <attitude-indicator>
     <name>attitude-indicator</name>
@@ -127,11 +145,14 @@ This file selects the instrumentation modules that should be available.
     <number>0</number>
   </tcas>
 
-  <transponder>
-    <name>transponder</name>
-    <number>0</number>
-    <mode-c-altitude>/instrumentation/altimeter/mode-c-alt-ft</mode-c-altitude>
-  </transponder>
+     <transponder>
+        <name type="string">transponder</name>
+        <number type="int">0</number>
+        <mode type="int">1</mode> <!-- 0 = Mode A, 1 = Mode C, 2 = Mode S -->
+        <bus-volts type="double">8.0</bus-volts>
+        <encoder-path type="string">/instrumentation/altimeter</encoder-path>
+        <kt70-compatibility type="bool">0</kt70-compatibility>
+    </transponder>
 
   <turn-indicator>
     <name>turn-indicator</name>
@@ -144,20 +165,10 @@ This file selects the instrumentation modules that should be available.
     <static-pressure>/systems/static/pressure-inhg</static-pressure>
   </vertical-speed-indicator>
 
-<!--    <KT-70>
-	<name>kt-70</name>
-	<number>0</number>
-    </KT-70>
-
-    <KT-70>
-	<name>kt-70</name>
-	<number>1</number>
-    </KT-70>
-
-    <KR-87>
-	<name>kr-87</name>
-	<number>0</number>
-    </KR-87> -->
-
+  <radar-altimeter>
+    <name>radar-altimeter</name>
+    <number>0</number>
+    <update-interval-sec>0.1</update-interval-sec>
+  </radar-altimeter>
 
 </PropertyList>

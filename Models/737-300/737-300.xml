@@ -13,8 +13,6 @@
     </unload>
   </nasal>
 
-
-
   <model>
     <name>flightdeck</name>
     <path>Aircraft/737-300-CHT/Models/Flightdeck/flightdeck.xml</path>
@@ -1838,7 +1836,6 @@
     </axis>
   </animation>
 
-
   <animation>
     <type>shader</type>
     <shader>chrome</shader>
@@ -1846,9 +1843,6 @@
     <object-name>glas</object-name>
     <object-name>glas2</object-name>
   </animation>
-
-
-
 
   <model>
     <path>Aircraft/737-300-CHT/Models/Effects/tire-smoke-nose.xml</path>
@@ -1948,33 +1942,20 @@
     <object-name>vstab</object-name>
     <object-name>rudder</object-name>
     <object-name>antlo</object-name>
-
     <object-name>tyreln</object-name>
-
     <object-name>tyrern</object-name>
-
     <object-name>mglhtyrelh</object-name>
-
     <object-name>mglhtyrerh</object-name>
-
     <object-name>mgrhtyrelh</object-name>
-
     <object-name>mgrhtyrerh</object-name>
-
     <object-name>Plane.011</object-name>
-
     <object-name>removal</object-name>
-
     <object-name>engcore</object-name>
-
     <object-name>tailpipe</object-name>
-
     <object-name>removal</object-name>
-
     <property-base>sim/model/livery</property-base>
     <texture-prop>texture</texture-prop>
     <texture>texture.png</texture>
-
   </animation>
 
   <!--eyebrow variant animation-->
@@ -2175,6 +2156,7 @@
 
 
   <!-- ENGINE CONTRAILS NEW -->
+
   <model>
     <path>Aircraft/737-300-CHT/Models/Effects/contrail-new.xml</path>
     <offsets>

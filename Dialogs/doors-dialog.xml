@@ -3,6 +3,10 @@
   <name>Airport Operations</name>
   <layout>vbox</layout>
 
+        <text>
+		<label>737-300 Light Controller</label>
+	</text>
+
   <group>
     <layout>table</layout>
     <text>
