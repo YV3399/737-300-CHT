@@ -39,6 +39,13 @@
     </offsets>
   </model>	
 
+       <animation>
+        <type>shader</type>
+        <shader>chrome</shader>
+        <texture>chrome.png</texture>
+        <object-name>engnose</object-name>
+        </animation> 
+
   <model>
     <name>Passenger Seating</name>
     <path>Aircraft/737-300-CHT/Models/Seating/passenger-seating.xml</path>
