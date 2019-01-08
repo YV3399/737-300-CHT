@@ -9,12 +9,12 @@ The Boeing 737-300 is now in heavy development by Gabriel.
 
 Currently Maintained By :
 
-Gabriel Hernandez(YV3399) Gabriel1314m@hotmail.com
+- Gabriel Hernandez(YV3399) Gabriel1314m@hotmail.com
 Original Authors :
 
-Heiko Schulz Heiko.H.Schulz@gmx.net
-Innis Cunningham
-Ispana FlightGear Team
-Emmanuel Barranger
-chtadmin chtadmin@charterva.com>
-Ryan Miller ryan31415926535@gmail.com
+- Heiko Schulz Heiko.H.Schulz@gmx.net
+- Innis Cunningham
+- Ispana FlightGear Team
+- Emmanuel Barranger
+- chtadmin chtadmin@charterva.com>
+- Ryan Miller ryan31415926535@gmail.com
