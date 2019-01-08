@@ -7,11 +7,10 @@ This work is based on the work of David Culp (FDM) and Innis Cunningham (3d-mode
 
 The Boeing 737-300 is now in heavy development by Gabriel.
 
-Currently Maintained By :
-
+<b>Currently Maintained By :</b>
 - Gabriel Hernandez(YV3399) Gabriel1314m@hotmail.com
-Original Authors :
 
+<b>Original Authors :</b>
 - Heiko Schulz Heiko.H.Schulz@gmx.net
 - Innis Cunningham
 - Ispana FlightGear Team
