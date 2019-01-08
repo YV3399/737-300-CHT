@@ -1,9 +1,10 @@
 <?xml version="1.0"?>
 
-<!-- New Sounds 737-300 By Gabriel Hernandez(YV3399) -->
+<!-- Sounds 737-300 By YV3399 -->
 
 <PropertyList>
-	<fx>
+	
+<fx>
 		
 <leftstartup>
       <name>leftenginestart</name>
@@ -727,7 +728,6 @@
         <max-dist>50.0</max-dist>
     </deice>
 
-       
 <!-- GPWS -->
 
    <alt2500>
@@ -867,7 +867,6 @@
     		<offset>1.0</offset>
     	</pitch>
     </rain>
-
     
      <seatbelt-on>
       <name>seatbelt-sign-on</name>
@@ -898,7 +897,6 @@
         <factor>1</factor>
       </volume>
     </nosmoke-on>
-
 
 
     <avionics>
@@ -964,28 +962,6 @@
         		<factor>1.5</factor>
         	</pitch>
         </crash>
-
-<eightyknots>
-        <name>eightyknots</name>
-        <mode>once</mode>
-        <type>avionics</type>
-        <path>Aircraft/737-300-CHT/Sounds/80kt.wav</path>
-        <condition>
-			<or>
-			<property>/gear/gear[0]/wow</property>
-			<property>/gear/gear[2]/wow</property>
-			</or>	
-			<greater-than>
-				<property>/velocities/airspeed-kt</property>
-				<value>80</value>
-			</greater-than>
-			<less-than>
-				<property>/velocities/airspeed-kt</property>
-				<value>88</value>
-			</less-than>			
-			</condition>	
-    </eightyknots>   
-
 
    <wind>
         <name>wind</name>

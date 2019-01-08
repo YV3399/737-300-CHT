@@ -13,6 +13,42 @@
     </unload>
   </nasal>
 
+ <model>
+	<name>winglets</name>
+	<path>Aircraft/737-300-CHT/Models/winglets.ac</path>
+    </model>
+    <animation>
+	<type>select</type>
+	<object-name>winglets</object-name>
+	<condition>
+	    <!--property>sim/model/winglets</property-->
+	    <equals>
+		<property>sim/model/variant</property>
+		<value>1</value>
+	    </equals>
+	</condition>
+    </animation>
+
+      <animation>
+		<name>Winglet illumination</name>
+		<type>material</type>
+               <object-name>WingletL</object-name>
+                  <object-name>WingletR</object-name>
+ 		<emission>
+			<red>0.25</red>
+			<green>0.25</green>
+			<blue>0.25</blue>
+			<factor-prop>controls/lighting/logo-lights</factor-prop>
+		</emission>
+	</animation>
+
+<animation>
+        <type>shader</type>
+        <shader>chrome</shader>
+        <texture>chrome.png</texture>
+        <object-name>engnose</object-name>
+        </animation> 
+
   <model>
     <name>flightdeck</name>
     <path>Aircraft/737-300-CHT/Models/Flightdeck/flightdeck.xml</path>
@@ -38,13 +74,6 @@
       <z-m>0</z-m>
     </offsets>
   </model>	
-
-       <animation>
-        <type>shader</type>
-        <shader>chrome</shader>
-        <texture>chrome.png</texture>
-        <object-name>engnose</object-name>
-        </animation> 
 
   <model>
     <name>Passenger Seating</name>

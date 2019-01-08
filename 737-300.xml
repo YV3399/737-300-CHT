@@ -478,16 +478,16 @@
       <aerosurface_scale name="Elevator Control">
 	<input>fcs/pitch-trim-sum</input>
 	<range>
-	  <min>-0.3</min>
-	  <max> 0.3</max>
+	  <min>-0.35</min>
+	  <max> 0.384</max>
 	</range>
 	<output>fcs/elevator-pos-rad</output>
       </aerosurface_scale>
       <aerosurface_scale name="Elevator Normalized">
 	<input>fcs/elevator-pos-rad</input>
 	<domain>
-	  <min>-0.4</min>
-	  <max> 0.4</max>
+	  <min>-0.45</min>
+	  <max> 0.484</max>
 	</domain>
 	<range>
 	  <min>-1</min>
@@ -588,16 +588,16 @@
       <aerosurface_scale name="Rudder Control">
 	<input>fcs/rudder-sum</input>
 	<range>
-	  <min>-0.35</min>
-	  <max> 0.35</max>
+	  <min>-0.450</min>
+	  <max> 0.450</max>
 	</range>
 	<output>fcs/rudder-pos-rad</output>
       </aerosurface_scale>
       <aerosurface_scale name="Rudder Normalized">
 	<input>fcs/rudder-pos-rad</input>
 	<domain>
-	  <min>-0.35</min>
-	  <max> 0.35</max>
+	  <min>-0.450</min>
+	  <max> 0.450</max>
 	</domain>
 	<range>
 	  <min>-1</min>

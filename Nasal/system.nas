@@ -198,7 +198,6 @@ togglereverser = func {
     }
 }
 
-
 update_systems = func {
     update_clock();
     update_radar();
