@@ -13,7 +13,7 @@
     </unload>
   </nasal>
 
- <model>
+     <model>
 	<name>winglets</name>
 	<path>Aircraft/737-300-CHT/Models/winglets.ac</path>
     </model>
@@ -42,12 +42,12 @@
 		</emission>
 	</animation>
 
-<animation>
+      <animation>
         <type>shader</type>
         <shader>chrome</shader>
         <texture>chrome.png</texture>
         <object-name>engnose</object-name>
-        </animation> 
+      </animation> 
 
   <model>
     <name>flightdeck</name>
@@ -100,7 +100,8 @@
     </offsets>
   </model>
 
-  <!-- Shadow, adapted by BR-NVS -->
+  <!-- Shadow -->
+
   <model>
     <name>shadowOSG</name>
     <path>Aircraft/737-300-CHT/Models/Shadow/shadow.xml</path>
@@ -112,7 +113,7 @@
     </offsets>
   </model>
 
-  <!-- Services by PR-GEO -->
+  <!-- Services -->
 
   <model>
     <path>Aircraft/737-300-CHT/Models/Services/Services.xml</path>
@@ -126,7 +127,6 @@
 
   <animation>
     <type>spin</type>
-<!--    <object-name>Cone</object-name> -->
     <object-name>Blades</object-name>
     <property>/engines/engine[0]/n1</property>
     <factor>10</factor>
@@ -144,7 +144,6 @@
 
   <animation>
     <type>spin</type>
-<!--    <object-name>Cone.001</object-name> -->
     <object-name>Blades.001</object-name>
     <property>/engines/engine[1]/n1</property>
     <factor>10</factor>
@@ -315,8 +314,6 @@
       <z>0</z>
     </axis>
   </animation>
-
-
 
   <animation>
     <type>rotate</type>
@@ -801,6 +798,7 @@
   </animation>
 
   <!-- left elevator-->
+
   <animation>
     <type>rotate</type>
     <object-name>lhelevator</object-name>
@@ -835,9 +833,8 @@
     </axis>
   </animation>
 
-<!-- xxxxxxxxxxxxxxxxx -->
-
   <!--right stab trim-->
+
   <animation>
     <type>rotate</type>
     <object-name>hstab.001</object-name>
@@ -1266,7 +1263,6 @@
     </axis>
   </animation>
 
-
   <animation>
     <type>rotate</type>
     <object-name>lhmidflapob</object-name>
@@ -1290,7 +1286,6 @@
       <z>0</z>
     </axis>
   </animation>
-
 
   <animation>
     <type>translate</type>
@@ -1712,6 +1707,7 @@
   </animation>
 
   <!-- these are the left outboard ground spoilers -->
+
   <animation>
     <type>rotate</type>
     <object-name>spoiler0</object-name>
@@ -1732,6 +1728,7 @@
   </animation>
 
   <!-- these are the right outboard ground spoilers -->
+
   <animation>
     <type>rotate</type>
     <object-name>spoiler9</object-name>
@@ -1752,6 +1749,7 @@
   </animation>
 
   <!-- these are the left flight spoilers -->
+
   <animation>
     <type>rotate</type>
     <object-name>spoiler2</object-name>
@@ -1773,6 +1771,7 @@
   </animation>
 
   <!-- these are the left flight spoilers -->
+
   <animation>
     <type>rotate</type>
     <object-name>spoiler2</object-name>
@@ -1794,6 +1793,7 @@
   </animation>
 
   <!-- these are the right flight spoilers -->
+
   <animation>
     <type>rotate</type>
     <object-name>spoiler6</object-name>
@@ -1814,6 +1814,7 @@
   </animation>
 
   <!-- these are the right flight spoilers -->
+
   <animation>
     <type>rotate</type>
     <object-name>spoiler6</object-name>
@@ -1835,6 +1836,7 @@
   </animation>
 
   <!-- these are the left inboard ground spoilers -->
+
   <animation>
     <type>rotate</type>
     <object-name>spoiler4</object-name>
@@ -1854,6 +1856,7 @@
   </animation>
 
   <!-- these are the right inboard ground spoilers -->
+
   <animation>
     <type>rotate</type>
     <object-name>spoiler5</object-name>
@@ -2191,7 +2194,7 @@
   </animation>
 
 
-  <!-- ENGINE CONTRAILS NEW -->
+  <!-- Contrail -->
 
   <model>
     <path>Aircraft/737-300-CHT/Models/Effects/contrail-new.xml</path>
@@ -2250,6 +2253,7 @@
     </animation>
 
 <!-- Lights -->
+
 	<animation>
 		<name>Tail logo light illumination</name>
 		<type>material</type>

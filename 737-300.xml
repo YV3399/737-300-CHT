@@ -465,8 +465,10 @@
     </tank>
   </propulsion>
   <system file="pushback"/>
+
   <flight_control name="FCS: 737">
     <channel name="Pitch">
+
       <summer name="Pitch Trim Sum">
 	<input>fcs/elevator-cmd-norm</input>
 	<input>fcs/pitch-trim-cmd-norm</input>
@@ -478,16 +480,16 @@
       <aerosurface_scale name="Elevator Control">
 	<input>fcs/pitch-trim-sum</input>
 	<range>
-	  <min>-0.35</min>
-	  <max> 0.384</max>
+	  <min>-0.336</min>
+	  <max> 0.3875</max>
 	</range>
 	<output>fcs/elevator-pos-rad</output>
       </aerosurface_scale>
       <aerosurface_scale name="Elevator Normalized">
 	<input>fcs/elevator-pos-rad</input>
 	<domain>
-	  <min>-0.45</min>
-	  <max> 0.484</max>
+	  <min>-0.336</min>
+	  <max> 0.3875</max>
 	</domain>
 	<range>
 	  <min>-1</min>
@@ -505,7 +507,7 @@
 	  <max> 1</max>
 	</clipto>
       </summer>
-      <aerosurface_scale name="Left Aileron Control">
+     <aerosurface_scale name="Left Aileron Control">
 	<input>fcs/roll-trim-sum</input>
 	<range>
 	  <min>-0.25</min>
@@ -524,8 +526,8 @@
       <aerosurface_scale name="Left aileron Normalized">
 	<input>fcs/left-aileron-pos-rad</input>
 	<domain>
-	  <min>-0.25</min>
-	  <max> 0.25</max>
+	  <min>-0.3577924967</min>
+	  <max> 0.2705260341</max>
 	</domain>
 	<range>
 	  <min>-1</min>
@@ -536,8 +538,8 @@
       <aerosurface_scale name="Right aileron Normalized">
 	<input>fcs/right-aileron-pos-rad</input>
 	<domain>
-	  <min>-0.25</min>
-	  <max> 0.25</max>
+	  <min>-0.3577924967</min>
+          <max> 0.2705260341</max>
 	</domain>
 	<range>
 	  <min>-1</min>
@@ -588,16 +590,16 @@
       <aerosurface_scale name="Rudder Control">
 	<input>fcs/rudder-sum</input>
 	<range>
-	  <min>-0.450</min>
-	  <max> 0.450</max>
+	  <min>-0.500</min>
+	  <max> 0.500</max>
 	</range>
 	<output>fcs/rudder-pos-rad</output>
       </aerosurface_scale>
       <aerosurface_scale name="Rudder Normalized">
 	<input>fcs/rudder-pos-rad</input>
 	<domain>
-	  <min>-0.450</min>
-	  <max> 0.450</max>
+	  <min>-0.500</min>
+	  <max> 0.500</max>
 	</domain>
 	<range>
 	  <min>-1</min>
@@ -640,11 +642,11 @@
 	  </setting>
 	  <setting>
 	    <position>0.875</position>
-	    <time>2</time>
+	    <time>5</time>
 	  </setting>
 	  <setting>
 	    <position>1</position>
-	    <time>2</time>
+	    <time>5</time>
 	  </setting>
 	</traverse>
 	<output>fcs/flap-pos-norm</output>

@@ -110,7 +110,8 @@
         <target-z-offset-m archive="y" type="double">16.859</target-z-offset-m>
       </config>
     </view>
- <view n="101">
+ 
+     <view n="101">
       <internal archive="y">true</internal>
       <name>Left Wing</name>
       <type>lookfrom</type>
@@ -128,6 +129,7 @@
 
 			</config>
     </view>
+
     <view n="102">
       <internal archive="y">true</internal>
       <name>right Wing</name>
@@ -146,60 +148,6 @@
     </view>
 
     <view n="103">
-      <internal archive="y">true</internal>
-      <name>Passenger View Front</name>
-      <type>lookfrom</type>
-      <internal archive="y">true</internal>
-      <config>
-        <from-model type="bool">true</from-model>
-        <from-model-idx type="int">0</from-model-idx>
-        <ground-level-nearplane-m type="double">0.01</ground-level-nearplane-m>
-        <default-field-of-view-deg type="double">50</default-field-of-view-deg>
-        <pitch-offset-deg>-10</pitch-offset-deg>
-        <heading-offset-deg>0</heading-offset-deg>
-        <x-offset-m archive="y" type="double">0</x-offset-m>
-        <y-offset-m archive="y" type="double">1.4</y-offset-m>
-        <z-offset-m archive="y" type="double">6.00</z-offset-m>
-      </config>
-    </view>
-
-    <view n="104">
-      <internal archive="y">true</internal>
-      <name>Passenger View Middle</name>
-      <type>lookfrom</type>
-      <internal archive="y">true</internal>
-      <config>
-        <from-model type="bool">true</from-model>
-        <from-model-idx type="int">0</from-model-idx>
-        <ground-level-nearplane-m type="double">0.01</ground-level-nearplane-m>
-        <default-field-of-view-deg type="double">50</default-field-of-view-deg>
-        <pitch-offset-deg>-10</pitch-offset-deg>
-        <heading-offset-deg>0</heading-offset-deg>
-        <x-offset-m archive="y" type="double">0</x-offset-m>
-        <y-offset-m archive="y" type="double">1.4</y-offset-m>
-        <z-offset-m archive="y" type="double">11.50</z-offset-m>
-      </config>
-    </view>
-
-    <view n="105">
-      <internal archive="y">true</internal>
-      <name>Passenger View Rear</name>
-      <type>lookfrom</type>
-      <internal archive="y">true</internal>
-      <config>
-        <from-model type="bool">true</from-model>
-        <from-model-idx type="int">0</from-model-idx>
-        <ground-level-nearplane-m type="double">0.01</ground-level-nearplane-m>
-        <default-field-of-view-deg type="double">50</default-field-of-view-deg>
-        <pitch-offset-deg>-10</pitch-offset-deg>
-        <heading-offset-deg>0</heading-offset-deg>
-        <x-offset-m archive="y" type="double">0</x-offset-m>
-        <y-offset-m archive="y" type="double">1.4</y-offset-m>
-        <z-offset-m archive="y" type="double">26.50</z-offset-m>
-      </config>
-    </view>
-
-    <view n="106">
       <internal archive="y">true</internal>
       <name>Co-Pilot View</name>
       <type>lookfrom</type>
@@ -265,6 +213,7 @@
       <enable3d n="1">false</enable3d>
       <path n="1" type="string">Aircraft/737-300-CHT/Models/Hud/737-300.xml</path>
     </hud>
+
     <help>
       <title>Boeing 737-300</title>
       <text>
@@ -315,6 +264,7 @@
         Landing Gear Limits - Extend 270kts / 0.82M - Retract 235kts
       </text>
     </help>
+
     <menubar>
       <default>
         <menu n="10">
@@ -326,11 +276,13 @@
               <command>nasal</command>
               <script>Boeing733.autostart()</script>
             </binding>
+
             <binding>
               <command>nasal</command>
               <script>electrical.set_elec()</script>
             </binding>
           </item>
+
           <item>
             <label>Shutdown</label>
             <binding>
@@ -338,6 +290,7 @@
               <script>Boeing733.shutdown()</script>
             </binding>
           </item>
+
           <item>
             <label>Pushback</label>
             <name>pushback</name>
@@ -346,6 +299,7 @@
               <dialog-name>pushback</dialog-name>
             </binding>
           </item>
+
           <item>
             <label>Yokes On/Off</label>
             <binding>
@@ -361,6 +315,7 @@
               </script>
             </binding>
           </item>
+
           <item>
             <label>Co-Pilot On/Off</label>
             <binding>
@@ -376,6 +331,7 @@
               </script>
             </binding>
           </item>
+
           <item>
             <label>Select Livery</label>
             <binding>
@@ -383,6 +339,7 @@
               <script>aircraft.livery.dialog.toggle()</script>
             </binding>
           </item>
+
           <item>
             <label>Lights</label>
             <binding>
@@ -391,11 +348,13 @@
                 var dlg = gui.Dialog.new("/sim/gui/dialogs/lights-config/dialog", "Aircraft/737-300-CHT/Dialogs/lights-dialog.xml");
               </script>
             </binding>
+
             <binding>
               <command>dialog-show</command>
               <dialog-name>lightcontrol</dialog-name>
             </binding>
           </item>
+
           <item>
             <label>Ground Ops</label>
             <binding>
@@ -433,6 +392,7 @@
       </default>
     </menubar>
   </sim>
+
   <autopilot>
     <settings>
       <vertical-speed-fpm type="double">2000</vertical-speed-fpm>
@@ -468,6 +428,7 @@
       <disengaged type="bool">false</disengaged>
     </internal>
   </autopilot>
+
   <limits>
     <max-flap-extension-speed>
       <speed>230</speed>
@@ -502,11 +463,12 @@
       <flaps>1.000</flaps>
     </max-flap-extension-speed>
     <max-gear-extension-speed>270</max-gear-extension-speed>
-    <vne>350</vne>
+    <vne>340</vne>
     <max-positive-g>2.5</max-positive-g>
     <max-negative-g>-1</max-negative-g>
     <max-altitude>37010</max-altitude>
   </limits>
+
   <consumables>
     <fuel>
       <tank n="0">
@@ -520,6 +482,7 @@
       </tank>
     </fuel>
   </consumables>
+
   <engines>
     <engine n="0">
       <running>0</running>
@@ -1019,6 +982,7 @@
       </key>
 
       <!-- map keys for seat vertical adjust -->
+
       <key n="21">
         <name>CTRL-U</name>
         <desc>Seat Default</desc>
@@ -1193,6 +1157,7 @@
       <autostart type="int">1</autostart>
     </engines>
   </controls>
+
   <gear>
     <gear n="0">
       <tyre-smoke type="int">0</tyre-smoke>
@@ -1211,54 +1176,66 @@
       <spray-density type="double">0</spray-density>
     </gear>
   </gear>
+
   <instrumentation>
+
     <adf>
       <volume-norm type="double">0.0</volume-norm>
     </adf>
+
     <adf n="1">
       <volume-norm type="double">0.0</volume-norm>
     </adf>   
+
     <comm>
       <volume type="double">1</volume>
       <frequencies>
         <selected-mhz type="double">121.50</selected-mhz>
       </frequencies>
     </comm>
+
     <comm n="1">
       <volume type="double">1</volume>
       <frequencies>
         <standby-mhz type="double">133.70</standby-mhz>
       </frequencies>
     </comm>
+
     <nav>
       <volume type="double">0.0</volume>
     </nav>
+
     <nav n="1">
       <volume type="double">0.0</volume>
     </nav>
+
     <dme>
       <frequencies>
         <source type="string">/instrumentation/nav[0]/frequencies/selected-mhz</source>
       </frequencies>
       <serviceable type="bool">true</serviceable>
     </dme>
+
     <dme n="1">
       <frequencies>
         <source type="string">/instrumentation/nav[1]/frequencies/selected-mhz</source>
       </frequencies>
       <serviceable type="bool">true</serviceable>
     </dme>
+
     <nav-compass>
       <nav-display type="int">0</nav-display>
       <nav-display n="1" type="int">0</nav-display>
     </nav-compass>
+
     <flightdirector>
       <fd-on>1</fd-on>
     </flightdirector>
+   
     <tcas>
       <serviceable type="bool">true</serviceable>
       <inputs>
-        <mode type="int">3</mode>       <!-- 0=off, 1=standby, 2=TA-only, 3=auto(TA/RA) -->
+        <mode type="int">3</mode>      <!-- 0=off, 1=standby, 2=TA-only, 3=auto(TA/RA) -->
       </inputs>
       <speaker>                           <!-- Speaker Configuration -->
         <max-dist> 2 </max-dist>          <!-- Max. distance where speaker is heard -->
@@ -1537,4 +1514,5 @@
       <file>Aircraft/737-300-CHT/Nasal/apdis-warn-off.nas</file>
     </apdis-warn-off>
   </nasal>
+
 </PropertyList>
