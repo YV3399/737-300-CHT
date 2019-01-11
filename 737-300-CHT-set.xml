@@ -354,31 +354,19 @@
               <dialog-name>lightcontrol</dialog-name>
             </binding>
           </item>
-
-          <item>
+       
+         <item>
             <label>Ground Ops</label>
-            <binding>
-              <condition>
-                <and>
-                  <less-than>
-                    <property>velocities/groundspeed-kt</property>
-                    <value>1</value>
-                  </less-than>
-                  <greater-than>
-                    <property>velocities/groundspeed-kt</property>
-                    <value>-1</value>
-                  </greater-than>
-                </and>
-              </condition>
-
-              <command>nasal</command>
-              <script>
+             <binding>
+               <command>nasal</command>
+                 <script>
                 var mal = gui.Dialog.new("/sim/gui/dialogs/ground-ops-config/dialog", "Aircraft/737-300-CHT/Dialogs/ground-ops-dialog.xml");
-                mal.open();
-              </script>
-            </binding>
+                 mal.open();
+                 </script>
+             </binding>
           </item>
-          <item>
+        
+         <item>
             <label>Doors</label>
             <binding>
               <command>nasal</command>

@@ -608,6 +608,7 @@
 	<output>fcs/rudder-pos-norm</output>
       </aerosurface_scale>
     </channel>
+    
     <channel name="Flaps">
       <kinematic name="Flaps Control">
 	<input>fcs/flap-cmd-norm</input>
@@ -617,36 +618,36 @@
 	    <time>0</time>
 	  </setting>
 	  <setting>
+	    <position>0.025</position>
+	    <time>5.7</time>
+	  </setting>
+	  <setting>
+	    <position>0.050</position>
+	    <time>12.7</time>
+	  </setting>
+	  <setting>
 	    <position>0.125</position>
-	    <time>5</time>
+	    <time>5.7</time>
 	  </setting>
 	  <setting>
 	    <position>0.25</position>
-	    <time>4</time>
-	  </setting>
-	  <setting>
-	    <position>0.375</position>
-	    <time>3</time>
-	  </setting>
-	  <setting>
-	    <position>0.5</position>
-	    <time>2</time>
+	    <time>5.7</time>
 	  </setting>
 	  <setting>
 	    <position>0.625</position>
-	    <time>2</time>
+	    <time>1.5</time>
 	  </setting>
 	  <setting>
-	    <position>0.75</position>
-	    <time>2</time>
+	    <position>0.750</position>
+	    <time>2.4</time>
 	  </setting>
 	  <setting>
-	    <position>0.875</position>
-	    <time>5</time>
+	    <position>0.750</position>
+	    <time>2.4</time>
 	  </setting>
 	  <setting>
 	    <position>1</position>
-	    <time>5</time>
+	    <time>3.3</time>
 	  </setting>
 	</traverse>
 	<output>fcs/flap-pos-norm</output>
@@ -662,7 +663,7 @@
 	  </setting>
 	  <setting>
 	    <position>1</position>
-	    <time>5</time>
+	    <time>7</time>
 	  </setting>
 	</traverse>
 	<output>gear/gear-pos-norm</output>
