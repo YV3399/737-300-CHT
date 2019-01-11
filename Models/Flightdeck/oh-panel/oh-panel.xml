@@ -76,6 +76,7 @@
   </animation>
 
   <!-- Bus Tran Switch Cover -->
+
   <animation>
     <type>rotate</type>
     <object-name>BusTranSwitchCover</object-name>
@@ -138,6 +139,7 @@
     </action>
   </animation>
 
+<!--No Smoking-->
 
   <animation>
     <type>pick</type>
@@ -176,6 +178,7 @@
     </axis>
   </animation>
 
+<!--Seatbelts-->
 
   <animation>
     <type>pick</type>
@@ -448,7 +451,7 @@
     </axis>
   </animation>
 
-<!-- Beacons (Anti-Collision) -->
+<!-- Beacons -->
 
   <animation>
     <type>pick</type>
@@ -567,6 +570,7 @@
 
 
   <!-- Engine Start 1 -->  
+
   <animation>
     <type>pick</type>
     <visible>true</visible>
@@ -612,6 +616,7 @@
   </animation>
 
   <!-- Engine Start 2 -->  
+
   <animation>
     <type>pick</type>
     <visible>true</visible>
@@ -1140,8 +1145,8 @@
     </axis>
   </animation>
 
-
   <!-- Stby Rud A Switch Cover -->
+
   <animation>
     <type>rotate</type>
     <object-name>StbyRudASwitchCover</object-name>
@@ -1204,8 +1209,8 @@
     </action>
   </animation>
 
-
   <!-- Stby Rud B Switch Cover -->
+
   <animation>
     <type>rotate</type>
     <object-name>StbyRudBSwitchCover</object-name>
@@ -1269,6 +1274,7 @@
   </animation>
 
   <!-- Alt Flaps Switch Cover -->
+
   <animation>
     <type>rotate</type>
     <object-name>AltFlapsSwitchCover</object-name>
@@ -1332,6 +1338,7 @@
   </animation>
 
   <!-- Spoiler A Switch Cover -->
+
   <animation>
     <type>rotate</type>
     <object-name>SpoilerASwitchCover</object-name>
@@ -1394,8 +1401,8 @@
     </action>
   </animation>
 
-
   <!-- Spoiler B Switch Cover -->
+
   <animation>
     <type>rotate</type>
     <object-name>SpoilerBSwitchCover</object-name>
@@ -1459,6 +1466,7 @@
   </animation>
 
   <!-- Stby Power Disconnect 1 Switch Cover -->
+
   <animation>
     <type>rotate</type>
     <object-name>StbyPwrDis1SwitchCover</object-name>
@@ -1522,6 +1530,7 @@
   </animation>
 
   <!-- Stby Power Disconnect 2 Switch Cover -->
+
   <animation>
     <type>rotate</type>
     <object-name>StbyPwrDis2SwitchCover</object-name>
@@ -1585,6 +1594,7 @@
   </animation>
 
   <!-- Stby Power Switch Cover -->
+
   <animation>
     <type>rotate</type>
     <object-name>StbyPwrSwitchCover</object-name>
@@ -1648,6 +1658,7 @@
   </animation>
 
   <!-- Emergency Exit Light Switch Cover -->
+
   <animation>
     <type>rotate</type>
     <object-name>ExitLightSwitchCover</object-name>
