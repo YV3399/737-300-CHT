@@ -147,6 +147,7 @@
 	</animation>	
 
 	<!-- the STAB TRIM switches -->
+
 	<animation>
 		<type>rotate</type>
 		<object-name>switch.001</object-name>		
@@ -166,18 +167,5 @@
     </axis>
 	
 	</animation>
-
-
-<!--  <animation>
-  <type>translate</type>
-	<property>/xadjust</property>
-	<axis><x>1</x></axis>
-</animation>
-	
-<animation>
-  <type>translate</type>
-	<property>/zadjust</property>
-	<axis><z>1</z></axis>
-</animation>  -->
 
 </PropertyList>
